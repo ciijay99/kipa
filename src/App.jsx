@@ -15,6 +15,7 @@ import Contact from './pages/Contact';
 import Portal from './pages/Portal';
 import Board from './pages/About/Board';
 import Management from './pages/About/Management';
+import MyPDFViewer from './components/MyPDFViewer';
 
 const App = () => {
   return (
@@ -55,6 +56,11 @@ const App = () => {
             path='/portal'
             element={<Portal />}
           />
+          {/* <Route
+            exact
+            path='/pdf/:filename.pdf'
+            component={MyPDFViewer}
+          /> */}
         </Routes>
         <Footer />
       </Router>

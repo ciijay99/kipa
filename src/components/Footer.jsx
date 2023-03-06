@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
-import Logo from '../assets/images/KIPA-green.png';
+import Logo from '../assets/images/KIPA-white.png';
 import './Footer.css';
 
 function Footer() {

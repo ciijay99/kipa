@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='bg-green-850'>
+      <nav className='bg-green-850 navbar'>
         <div className='navbar-container'>
           <Link
             to='/'
@@ -62,14 +62,43 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/About'
-                className='nav-links'
-                onClick={closeMobileMenu}
+            <li className='nav-item dropdown'>
+              <span
+                // to='/About'
+                className='nav-links cursor-pointer'
+                // onClick={closeMobileMenu}
               >
                 About
-              </Link>
+              </span>
+              <ul className='dropdown-menu flex justify-center'>
+                <li>
+                  <Link
+                    to='/About'
+                    className='dropdown-links '
+                    onClick={closeMobileMenu}
+                  >
+                    What We Do
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to='/Board'
+                    className='dropdown-links'
+                    onClick={closeMobileMenu}
+                  >
+                    Board
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to='/Management'
+                    className='dropdown-links'
+                    onClick={closeMobileMenu}
+                  >
+                    Management
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li className='nav-item'>
               <Link

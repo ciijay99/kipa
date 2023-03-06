@@ -11,7 +11,7 @@ module.exports = {
         inter: ['Inter var', 'sans-serif'],
       },
       colors: {
-        green: { 850: '#0F6735' },
+        green: { 850: '#0F6735', 950: '#116635' },
       },
     },
   },
