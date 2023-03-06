@@ -50,13 +50,23 @@ const Publication = () => {
                     data={link}
                     type='application/pdf'
                     title={name}
-                    width='100%'
+                    // width='100%'
                     height='500px'
+                    className='hidden sm:flex h-96 w-full mb-4 mt-6'
                   >
-                    <p className='text-sm font-normal text-center text-blue-850'>
+                    <p className='text-sm font-normal text-center text-green-850'>
                       <a href={link}>{name}</a>
                     </p>
                   </object>
+                  <p className='text-sm font-normal text-center text-green-850'>
+                    <a
+                      href={link}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      {name}
+                    </a>
+                  </p>
                 </div>
               );
             })}

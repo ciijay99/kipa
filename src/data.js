@@ -136,41 +136,41 @@ export const publications = [
   {
     id: 1,
     name: 'KADINVEST 7.0 Report',
-    link: 'src/assets/pdfs/test.pdf',
+    link: pdf,
   },
   {
     id: 2,
     name: 'Building a Resilient Economy',
-    link: '../src/assets/pdfs/test.pdf',
+    link: pdf,
   },
   {
     id: 3,
     name: 'Improving Sub-National Resilience Against Global Economic Shocks',
-    link: '../src/assets/pdfs/test.pdf',
+    link: pdf,
   },
   {
     id: 4,
     name: 'Private Sector Investment in Kaduna State Road Infrastructure',
-    link: '../src/assets/pdfs/test.pdf',
+    link: pdf,
   },
   {
     id: 5,
     name: 'Investment Opportunities in Kaduna State’s Power Sector',
-    link: '../src/assets/pdfs/test.pdf',
+    link: pdf,
   },
   {
     id: 6,
     name: 'KADIPA LAW',
-    link: '../src/assets/pdfs/test.pdf',
+    link: pdf,
   },
   {
     id: 7,
     name: 'Kaduna Investment Opportunities',
-    link: '../src/assets/pdfs/test.pdf',
+    link: pdf,
   },
   {
     id: 8,
     name: 'Kaduna Infrastructure Masterplan',
-    link: { pdf },
+    link: pdf,
   },
 ];
