@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='bg-green-850'>
         <div className='navbar-container'>
           <Link
             to='/'

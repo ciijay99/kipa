@@ -5,7 +5,7 @@ const Board = () => {
   return (
     <div className='flex justify-center items-center'>
       <div className='w-9/12 h-auto flex flex-col mt-32 mb-24'>
-        <h1 className='text-4xl text-blue-850 text-left m-0'>
+        <h1 className='text-4xl text-green-850 text-left m-0'>
           KADIPA Board
         </h1>
 
@@ -23,7 +23,7 @@ const Board = () => {
         </div>
 
         <div className='w-full h-auto mt-6'>
-          <h2 className='text-xl text-blue-850 rounded-sm border-b-2 border-gray-200'>
+          <h2 className='text-xl text-green-850 rounded-sm border-b-2 border-gray-200'>
             Board Chair
           </h2>
 
@@ -43,7 +43,7 @@ const Board = () => {
         </div>
 
         <div className='w-full h-auto flex flex-col mt-10'>
-          <h2 className='text-xl text-blue-850 border-b-2 border-gray-200 rounded-sm'>
+          <h2 className='text-xl text-green-850 border-b-2 border-gray-200 rounded-sm'>
             Board Members
           </h2>
 
