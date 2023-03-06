@@ -85,6 +85,8 @@ export const board = [
     role: 'Executive Secretary, KADIPA',
   },
 ];
+
+// MANAGEMENT ARRAY
 export const management = [
   {
     id: 1,
@@ -99,7 +101,7 @@ export const management = [
     id: 2,
     name: 'Khalil Nur Khalil',
     img: 'imgs/Khalil.jpeg',
-    role: 'Executive Secretary, KADIPA',
+    role: 'Executive Secretary',
     summary:
       'Khalil has a first-class Bachelors of Science in Economics with high honours and was the best graduating student in the Economics department at the Eastern Mediterranean University, after achieving a GPA of 3.98/4.00.He has experience in the public investment policy, promotion, and facilitation space at the subnational level. He is passionate about economic development for Africa, and has spent the last 3 years helping to grow Kaduna States economy via dedicated efforts of improving the business environment to attract private sector capital. This deliberate and coordinated effort culminated in Kaduna State being ranked number 1 in the World Banks 2018 sub-national Doing Business in Nigeria report with over $2 billion dollars worth of investments attracted. He was appointed Executive Secretary on the 11th of October 2021.',
   },
@@ -129,6 +131,7 @@ export const management = [
   },
 ];
 
+// PUBLICATIONS ARRAY
 export const publications = [
   {
     id: 1,

@@ -15,7 +15,7 @@ import Contact from './pages/Contact';
 import Portal from './pages/Portal';
 import Board from './pages/About/Board';
 import Management from './pages/About/Management';
-import MyPDFViewer from './components/MyPDFViewer';
+import NotFound from './pages/notFound/NotFound';
 
 const App = () => {
   return (
@@ -56,11 +56,15 @@ const App = () => {
             path='/portal'
             element={<Portal />}
           />
-          {/* <Route
+          <Route
             exact
-            path='/pdf/:filename.pdf'
-            component={MyPDFViewer}
-          /> */}
+            path='src/assets/pdfs/:filename.pdf'
+            component={Publication}
+          />
+          <Route
+            path='*'
+            element={<NotFound />}
+          />
         </Routes>
         <Footer />
       </Router>
