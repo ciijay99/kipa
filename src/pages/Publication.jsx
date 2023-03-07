@@ -52,7 +52,7 @@ const Publication = () => {
                     title={name}
                     // width='100%'
                     height='500px'
-                    className='hidden sm:flex h-96 w-full mb-4 mt-6'
+                    className='hidden sm:flex h-96 border-none w-full mb-4 mt-6'
                   >
                     <p className='text-sm font-normal text-center text-green-850'>
                       <a href={link}>{name}</a>

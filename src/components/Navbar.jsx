@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='bg-green-850 navbar'>
+      <nav className='bg-green-950 navbar'>
         <div className='navbar-container'>
           <Link
             to='/'
@@ -62,7 +62,7 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className='nav-item dropdown'>
+            {/* <li className='nav-item dropdown'>
               <span
                 // to='/About'
                 className='nav-links cursor-pointer'
@@ -99,6 +99,24 @@ function Navbar() {
                   </Link>
                 </li>
               </ul>
+            </li> */}
+            <li className='nav-item'>
+              <Link
+                to='/About'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/People'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                People
+              </Link>
             </li>
             <li className='nav-item'>
               <Link

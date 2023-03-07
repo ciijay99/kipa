@@ -1,21 +1,22 @@
-import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
-import About from './pages/About/About';
+import About from './pages/About';
 import Discover from './pages/Discover';
 import Publication from './pages/Publication';
 import Contact from './pages/Contact';
 import Portal from './pages/Portal';
-import Board from './pages/About/Board';
-import Management from './pages/About/Management';
+import Board from './pages/People/Board';
+import Management from './pages/People/Management';
 import NotFound from './pages/notFound/NotFound';
+import People from './pages/People/People';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -57,6 +58,10 @@ const App = () => {
             element={<Portal />}
           />
           <Route
+            path='/people'
+            element={<People />}
+          />
+          <Route
             exact
             path='src/assets/pdfs/:filename.pdf'
             component={Publication}
@@ -67,6 +72,7 @@ const App = () => {
           />
         </Routes>
         <Footer />
+        <ScrollToTop />
       </Router>
     </>
   );

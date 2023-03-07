@@ -26,8 +26,8 @@ const Management = () => {
   };
 
   return (
-    <section className='flex justify-center items-center'>
-      <div className='w-9/12 h-auto flex flex-col mt-28 mb-24'>
+    <div className='flex justify-center items-center'>
+      <div className='w-9/12 h-auto flex flex-col mt-24 mb-24'>
         <div className='flex flex-col'>
           <h2 className='text-4xl text-green-850 text-bold mb-8'>
             Management
@@ -41,7 +41,7 @@ const Management = () => {
           </p>
         </div>
         <section className='executives'>
-          <div className='container executives__container w-3/4'>
+          <div className='container executives__container w-full'>
             {managementData.map(
               ({
                 id,
@@ -58,15 +58,31 @@ const Management = () => {
                     className='executive'
                   >
                     <div
-                      className='executive__icon flex flex-row gap-8 bg-green-850'
+                      className={`executive__icon flex flex-row gap-8 py-1 ${
+                        id % 2 ? 'bg-green-850' : 'bg-gray-300'
+                      }`}
                       onClick={() => handleButtonClick(id)}
                     >
                       {click ? (
-                        <Remove sx={{ color: 'white' }} />
+                        <Remove
+                          sx={{
+                            color: `${id % 2 ? 'white' : 'black'}`,
+                          }}
+                        />
                       ) : (
-                        <Add sx={{ color: 'white' }} />
+                        <Add
+                          sx={{
+                            color: `${id % 2 ? 'white' : 'black'}`,
+                          }}
+                        />
                       )}
-                      <h4 className='text-white'>{role}</h4>
+                      <h4
+                        className={`${
+                          id % 2 ? 'text-white' : ' text-gray-900'
+                        }`}
+                      >
+                        {role}
+                      </h4>
                     </div>
                     {showSummary && (
                       <div className='info grid grid-cols-2'>
@@ -91,7 +107,7 @@ const Management = () => {
           </div>
         </section>
       </div>
-    </section>
+    </div>
   );
 };
 

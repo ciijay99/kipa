@@ -4,9 +4,9 @@ import { board } from '../../data';
 const Board = () => {
   return (
     <div className='flex justify-center items-center'>
-      <div className='w-9/12 h-auto flex flex-col mt-32 mb-24'>
+      <div className='w-9/12 h-auto flex flex-col mt-24 mb-24'>
         <h1 className='text-4xl text-green-850 text-left m-0'>
-          KADIPA Board
+          KIPA Board
         </h1>
 
         <div className='mt-8'>
