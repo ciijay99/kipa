@@ -3,15 +3,10 @@ import { Button } from '../components/Button';
 import './Header.css';
 import MyComponent from '../components/MyComponent';
 import Marquee from 'react-fast-marquee';
-import image1 from '../assets/images/pic.png';
-import image2 from '../assets/images/pic2.png';
-import image3 from '../assets/images/pic3.png';
-import Carousel from '../components/Carousel';
 
 // import Carousel from 'react-bootstrap/Carousel';
 
 function Header() {
-  const images = [image1, image2, image3];
   return (
     <>
       <div className='header-container'>

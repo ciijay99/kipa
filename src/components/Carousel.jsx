@@ -17,18 +17,6 @@ const Carousel = ({ images, autoPlayInterval = 3000 }) => {
     return () => clearInterval(intervalRef.current);
   }, [autoPlayInterval, currentIndex, images]);
 
-  const startAutoPlay = () => {
-    intervalRef.current = setInterval(() => {
-      const newIndex =
-        currentIndex === images.length - 1 ? 0 : currentIndex + 1;
-      setCurrentIndex(newIndex);
-    }, autoPlayInterval);
-  };
-
-  const stopAutoPlay = () => {
-    clearInterval(intervalRef.current);
-  };
-
   const handlePrevClick = () => {
     const newIndex =
       currentIndex === 0 ? images.length - 1 : currentIndex - 1;
