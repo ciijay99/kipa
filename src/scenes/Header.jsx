@@ -38,8 +38,7 @@ function Header() {
         </div>
       </div>
 
-      <Carousel images={images} />
-      {/*       <div
+      <div
         style={{
           backgroundColor: '#0f6735',
           width: '100%',
@@ -60,7 +59,7 @@ function Header() {
         >
           <MyComponent />
         </Marquee>
-      </div> */}
+      </div>
     </>
   );
 }
