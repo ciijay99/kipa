@@ -1,0 +1,11 @@
+.flex-item{
+    justify-content: space-around;
+    background-color: white;
+}
+.pic{
+    margin-left: 250px;
+}
+.pic:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}

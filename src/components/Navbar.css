@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 .navbar-logo img {
-  width: 105px;
+  width: 110px;
   height: 70px;
   margin-top: 5px;
 }
@@ -133,11 +133,11 @@
   }
 
   .nav-menu.active {
-    background: rgb(19, 173, 119);
+    background: rgb(5, 32, 3);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 5;
   }
 
   .nav-links {

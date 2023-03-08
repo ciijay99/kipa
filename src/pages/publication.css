@@ -1,0 +1,87 @@
+.publication {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .publication-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .publication-author,
+  .publication-date {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+  }
+  
+  .publication-abstract {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .publication-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .publication-section-content {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 600px) {
+    .publication-title {
+      font-size: 2.5rem;
+    }
+  
+    .publication-author,
+    .publication-date {
+      font-size: 1rem;
+    }
+  
+    .publication-abstract {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+  
+    .publication-section-title {
+      font-size: 1.8rem;
+    }
+  
+    .publication-section-content {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .publication-title {
+      font-size: 2rem;
+    }
+  
+    .publication-author,
+    .publication-date {
+      font-size: 1rem;
+    }
+  
+    .publication-abstract {
+      font-size: 1.1rem;
+      line-height: 1.4rem;
+    }
+  
+    .publication-section-title {
+      font-size: 1.5rem;
+    }
+  
+    .publication-section-content {
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+  
