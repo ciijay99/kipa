@@ -19,7 +19,7 @@ const About = () => {
           reiciendis nostrum quam earum? Nisi, explicabo dicta!
         </p>
         <div className='mt-10 mb-8 justify-self-center flex flex-col'>
-          <h2 className='text-green-850 text-xl font-semibold mb-1 text-left ml-0'>
+          <h2 className='text-green-850 font-rubik text-xl font-semibold mb-1 text-left ml-0'>
             Our Vision
           </h2>
           <p className='text-sm text-justify mb-3 w-7/12'>
@@ -27,7 +27,7 @@ const About = () => {
             Error distinctio qui dicta assumenda, quae, architecto
             illo sed, at saepe culpa delectus deleniti ex rerum.
           </p>
-          <h2 className='text-green-850 text-xl mb-1 font-semibold text-left ml-0'>
+          <h2 className='text-green-850 font-rubik text-xl mb-1 font-semibold text-left ml-0'>
             Mission Statement
           </h2>
           <p className='text-sm text-justify mb-3 w-7/12'>

@@ -8,7 +8,7 @@ module.exports = {
         xs: '600px',
       },
       fontFamily: {
-        inter: ['Inter var', 'sans-serif'],
+        'rubik': ['Rubik', 'sans-serif']
       },
       colors: {
         green: { 850: '#0F6735', 950: '#106835' },
