@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import '../scenes/Header.css';
+import EmailIcon from '@mui/icons-material/Email';
+import PlaceIcon from '@mui/icons-material/Place';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -62,27 +65,28 @@ const Contact = () => {
   };
 
   return (
-    <div className='flex flex-col justify-center items-center bg-gray-75'>
-      <div className='contact-header w-full h-52 mt-20 flex flex-col object-contain justify-center'>
+    <div className='flex flex-col justify-center items-center bg-white'>
+      <div className='contact-header z-20 w-full h-52 mt-20 flex flex-col object-contain justify-center'>
         <h1 className='text-5xl text-white mb-8 text-center ml-0'>
           Contact Us
         </h1>
       </div>
       <div
-        className='w-full h-auto flex gap-7 bg-white p-10 place-content-between justify-center'
+        className='w-full h-auto flex gap-7 z-10 mb-10 bg-white p-10 place-content-between justify-center'
         id='contact--body__section'
       >
         <div
-          className=' flex flex-col mb-24 bg-green-850 justify-center items-center'
+          className=' flex flex-col mb-24 justify-center bg-yellow-850 items-center'
           style={{
             boxShadow:
               '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 2px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
-            borderRadius: '5vw',
+            borderRadius: '1vw',
             width: '50vw',
             minHeight: '50vw',
             marginTop: '-5vw',
             marginBottom: '0px',
-            padding: '8vw 5vw 5vw',
+            padding: '8vw 2vw 5vw',
+            overflow: 'hidden',
           }}
         >
           <form
@@ -122,7 +126,7 @@ const Contact = () => {
             ></textarea>
             <button
               type='submit'
-              className='w-2/5 bg-white text-green-850 align-middle place-self-center p-2 rounded-sm sm:text-sm hover:bg-red-850 hover:text-white'
+              className='w-4/5 bg-green-950 text-white align-middle place-self-center p-2 rounded-sm sm:text-sm hover:bg-yellow-950 hover:text-white'
             >
               Send Message
             </button>
@@ -130,19 +134,34 @@ const Contact = () => {
           {statusMessage && <p>{statusMessage}</p>}
         </div>
         <div className=' w-5/12 h-auto flex flex-col mb-24 p-10 justify-center text-left'>
-          <h5 className='text-white'>CONTACT KIPA</h5>
-          <h6 className='text-red-850'>contact-kipa@kbsg.gov.ng</h6>
-          <a href='tel:+234123456789'>
-            <h4 className='text-left'>+234 123 456 7890</h4>
-          </a>
-          <h6>
-            <span>
-              <strong>Location:</strong>
-            </span>
-            <br />
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Dolore, omnis.
+          <h2 className='text-green-850 text-center text-4xl'>
+            Get In Touch
+          </h2>
+          <h4 className=' font-normal p-0 mb-16 text-left'>
+            We are eager to assist you in anyway you need, you can
+            fill out the enquiry form and a member of our response
+            team would reach out to you.
+          </h4>
+          <h6 className='flex gap-1'>
+            <EmailIcon sx={{ color: 'green' }} />
+            <h6 className='font-medium'>Email:&nbsp;</h6>
+            contact-kipa@kbsg.gov.ng
           </h6>
+          <a href='tel:+234123456789'>
+            <h4 className='text-left flex gap-1'>
+              <PhoneIcon sx={{ color: 'green' }} />
+              <h6 className='font-medium'>Phone:&nbsp;</h6>
+              +234 123 456 7890
+            </h4>
+          </a>
+          <div>
+            <h6 className='flex gap-1'>
+              <PlaceIcon sx={{ color: 'green' }} />
+              <h6 className='font-medium'>Location:&nbsp;</h6>
+              Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Dolore, omnis.
+            </h6>
+          </div>
         </div>
       </div>
     </div>

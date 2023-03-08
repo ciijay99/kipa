@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         green: { 850: '#0F6735', 950: '#106835' },
         gray: { 75: '#F6F6F6' },
-        yellow: { 850: '#F0DC6B' },
+        yellow: { 850: '#F0DC6B', 950: '#A69381' },
         red: { 850: '#B50C00' },
       },
       backgroundImage: {
