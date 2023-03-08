@@ -16,6 +16,9 @@ module.exports = {
         yellow: { 850: '#F0DC6B' },
         red: { 850: '#B50C00' },
       },
+      backgroundImage: {
+        bg: "url('../src/assets/images/bg.jpg')",
+      },
     },
   },
   plugins: [],
