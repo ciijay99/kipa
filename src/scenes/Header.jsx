@@ -3,13 +3,15 @@ import { Button } from '../components/Button';
 import './Header.css';
 import MyComponent from '../components/MyComponent';
 import Marquee from 'react-fast-marquee';
-import image1 from '../assets/images/bg.jpg';
-import image2 from '../assets/images/bg.jpg';
-import image3 from '../assets/images/bg.jpg';
+import image1 from '../assets/images/pic.png';
+import image2 from '../assets/images/pic2.png';
+import image3 from '../assets/images/pic3.png';
+import Carousel from '../components/Carousel';
 
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 
 function Header() {
+  const images = [image1, image2, image3];
   return (
     <>
       <div className='header-container'>
@@ -36,7 +38,8 @@ function Header() {
         </div>
       </div>
 
-      <div
+      <Carousel images={images} />
+      {/*       <div
         style={{
           backgroundColor: '#0f6735',
           width: '100%',
@@ -57,7 +60,7 @@ function Header() {
         >
           <MyComponent />
         </Marquee>
-      </div>
+      </div> */}
     </>
   );
 }
