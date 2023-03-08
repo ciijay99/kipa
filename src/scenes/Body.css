@@ -4,12 +4,13 @@
     display: -ms-flexbox;
     color: #f1f1f1;
     display: flex;
+    flex-direction: 'row';
     margin-bottom: 2.5vw;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 .card{
     display: -webkit-box;
@@ -17,6 +18,7 @@
     display: -ms-flexbox;
     display: flex;
     padding: 1.5rem;
+    padding:5rem;
     width: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -32,7 +34,8 @@
     -ms-flex-align: start;
     align-items: flex-start;
     background-image: -webkit-gradient(linear, left top, right top, from(#fe640e), to(#fc0));
-    background-image: linear-gradient(90deg, #0a3213, #106624);
+    background-image: linear-gradient(180deg, #0a3213, #106624);
+    box-shadow: 0 6px 20px rgba(205, 232, 214, 0.17);
 }
 .card 
     h1 {
@@ -57,4 +60,14 @@
         font-weight: bold;
         margin-bottom: 10px;
     }
+    .carousel-container{
+        width: 100%;
+        background-image: linear-gradient(180deg, #0a3213, #106624);
+    }
 
+
+    @media screen and (max-width:799px){
+        .main-card{
+            flex-flow: column;
+        }
+    }

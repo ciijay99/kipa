@@ -44,13 +44,13 @@ const Carousel = ({ images, autoPlayInterval = 3000 }) => {
         )}
       </div>
       <button
-        className='absolute top-1/2 left-3 transform text-white -translate-y-1/2 bg-green-850 border-none outline-none cursor-pointer p-3 rounded-full flex items-center justify-center transition-colors duration-300 hover:bg-white hover:text-green-850'
+        className='absolute top-1/2 left-3 transform text-white -translate-y-1/2 transparent border-none outline-none cursor-pointer p-3 rounded-full flex items-center justify-center transition-colors duration-300 hover:bg-white hover:text-green-850'
         onClick={handlePrevClick}
       >
         <ChevronLeft />
       </button>
       <button
-        className='absolute top-1/2 right-3 transform text-white -translate-y-1/2 bg-green-850 border-none outline-none cursor-pointer p-3 rounded-full flex items-center justify-center transition-colors duration-300 hover:bg-white hover:text-green-850'
+        className='absolute top-1/2 right-3 transform text-white -translate-y-1/2 transparent border-none outline-none cursor-pointer p-3 rounded-full flex items-center justify-center transition-colors duration-300 hover:bg-white hover:text-green-850' //bg-green-850
         onClick={handleNextClick}
       >
         <ChevronRight />
