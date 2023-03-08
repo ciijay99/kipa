@@ -3,7 +3,12 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <div style={{ marginTop: '8rem', marginBottom: '6rem' }}>
+      <div 
+        style={{
+              marginTop: '1rem', 
+              marginBottom: '1rem',
+              padding: '5rem 10rem'
+              }}>
         <h1>What We Do</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et

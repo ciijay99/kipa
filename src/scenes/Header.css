@@ -1,16 +1,12 @@
-video{
-    object-fit:cover;
+.video{
     width: 100%;
-    height: 100%;
-    position:fixed;
-    z-index: -1;
+    height: 100vh;
 }
 .header-container{
     background: url('../assets/images/bg.jpg') right no-repeat; 
    /* background-color: #997; */
     height: 90vh;
     width: 100%; 
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,3 +57,34 @@ video{
         width: 100%;
     }
 }
+
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 1;
+  }
+  
+  .carousel-button:hover {
+    opacity: 0.7;
+  }
+  
+  .prev-button {
+    left: 2%;
+  }
+  
+  .next-button {
+    right: 2%;
+  }
+  
+  .carousel-root {
+    height: 100vh;
+  }
+  
