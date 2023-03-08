@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Button } from './Button';
 import { Menu, Close } from '@mui/icons-material';
 import Logo from '../assets/images/KIPA-green.png';
@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='bg-green-950 navbar'>
         <div className='navbar-container'>
-          <Link
+          <NavLink
             to='/'
             className='navbar-logo'
             onClick={closeMobileMenu}
@@ -39,7 +39,7 @@ function Navbar() {
               alt=' '
               className='logo-img'
             />
-          </Link>
+          </NavLink>
 
           <div
             className='menu-icon'
@@ -54,105 +54,68 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link
+              <NavLink
                 to='/'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Home
-              </Link>
+              </NavLink>
             </li>
-            {/* <li className='nav-item dropdown'>
-              <span
-                // to='/About'
-                className='nav-links cursor-pointer'
-                // onClick={closeMobileMenu}
-              >
-                About
-              </span>
-              <ul className='dropdown-menu flex justify-center'>
-                <li>
-                  <Link
-                    to='/About'
-                    className='dropdown-links '
-                    onClick={closeMobileMenu}
-                  >
-                    What We Do
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to='/Board'
-                    className='dropdown-links'
-                    onClick={closeMobileMenu}
-                  >
-                    Board
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to='/Management'
-                    className='dropdown-links'
-                    onClick={closeMobileMenu}
-                  >
-                    Management
-                  </Link>
-                </li>
-              </ul>
-            </li> */}
             <li className='nav-item'>
-              <Link
+              <NavLink
                 to='/About'
                 className='nav-links'
+                activeClassName='active'
                 onClick={closeMobileMenu}
               >
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink
                 to='/People'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 People
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink
                 to='/Discover'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Discover
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink
                 to='/Publication'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Publication
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink
                 to='/Contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Contact
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink
                 to='/Portal'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Portal
-              </Link>
+              </NavLink>
             </li>
           </ul>
           {button && (

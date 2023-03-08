@@ -67,6 +67,11 @@
   transition: all 0.2s ease-out;
 }
 
+.nav-links.active {
+  border-bottom: 4px solid #f0dc6b;
+  color: #f0dc6b;
+}
+
 .fa-bars {
   color: #fff;
 }
