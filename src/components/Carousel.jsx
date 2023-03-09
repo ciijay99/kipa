@@ -55,7 +55,7 @@ const Carousel = ({ images, autoPlayInterval = 5000 }) => {
               key={index}
               src={image}
               alt={`Carousel ${index}`}
-              className='w-full h-auto'
+              className='w-full h-full lg:h-auto'
             />
           ) : null
         )}

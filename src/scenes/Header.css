@@ -41,7 +41,7 @@ video {
   opacity: 0.7;
   text-align: center;
   display: inline;
-  max-width: fit-content;
+  /* max-width: fit-content; */
 
   position: absolute;
   top: 40%;
@@ -127,8 +127,8 @@ video {
 }
 .header-btns {
   margin-top: 2rem;
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   justify-content: center;
 }
 .header-btns .btn {
@@ -138,6 +138,11 @@ video {
 
 .fa-play-circle {
   margin-left: 4px;
+}
+@media screen and (max-width: 504px) {
+  .header-btns {
+    /* width: 30%; */
+  }
 }
 
 @media screen and (max-width: 1254px) {
@@ -191,7 +196,7 @@ video {
   }
   .header-container > h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 1rem;
   }
   .header-container > p {
     font-size: 1rem;
@@ -209,7 +214,7 @@ video {
     height: auto;
     font-size: 0.8rem;
     width: 60%;
-    /* padding: 3rem 4rem; */
+    padding: 1rem;
     margin-left: 0;
   }
   .header-left > h1 {

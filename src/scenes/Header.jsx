@@ -20,29 +20,31 @@ function Header() {
           width: '100%',
         }}
       >
-        <div className='relative'>
+        <div className='relative object-cover'>
           <Carousel images={images} />
         </div>
         <div className='header-left'>
-          <h1>Kebbi Investment Promotion Agency</h1>
-          <h4>
+          <h1 className=' w-full'>
+            Kebbi Investment Promotion Agency
+          </h1>
+          <h4 className=' w-full hidden justify-center md:flex'>
             Driving Economic Growth and Investment Opportunities in
             Kebbi State
           </h4>
-          <div className='header-btns'>
+          <div className='header-btns grid grid-cols-2 justify-evenly gap-1 object-contain'>
             <Button
               className='btns'
               buttonStyle='btn--outline'
-              buttonSize='btn--large'
+              buttonSize='btn--medium'
             >
               About
             </Button>
             <Button
-              className='btns'
+              className='btns flex '
               buttonStyle='btn--primary'
-              buttonSize='btn--large'
+              buttonSize='btn--medium'
             >
-              Discover <i className='far fa-play-circle' />
+              Discover
             </Button>
           </div>
         </div>
