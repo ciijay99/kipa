@@ -11,7 +11,7 @@ const Values = () => {
       <h1 className='text-4xl text-green-850 font-bold mb-4 mt-10 text-center font-rubik ml-0'>
         Our Values
       </h1>
-      <div className='grid grid-cols-3 justify-evenly mx-32 py-10 flex-col gap-10 lg:flex lg:flex-row lg:gap-0'>
+      <div className='grid grid-cols-3 justify-evenly mx-2 lg:mx-32 py-10 flex-col gap-10 lg:flex lg:flex-row lg:gap-0'>
         <span className='flex flex-col justify-center px-3'>
           <HandshakeIcon
             sx={{

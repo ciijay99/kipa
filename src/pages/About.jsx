@@ -8,7 +8,7 @@ const About = () => {
           <h1 className='text-4xl text-green-850 text-bold mb-4 text-left font-rubik ml-0'>
             Who We Are
           </h1>
-          <p className='text-sm text-left w-6/12'>
+          <p className='text-sm text-left w-full lg:w-8/12'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Et veritatis exercitationem ea ex nostrum eaque quaerat
             doloremque sint ipsum vel, provident minima commodi qui,
@@ -24,7 +24,7 @@ const About = () => {
             <h2 className='text-green-850 font-rubik tracking-normal text-xl font-semibold mb-1 text-left ml-0'>
               Our Vision
             </h2>
-            <p className='text-sm text-justify mb-3 w-7/12'>
+            <p className='text-sm text-justify mb-3 w-full lg:w-8/12'>
               Lorem ipsum dolor sit amet consectetur, adipisicing
               elit. Error distinctio qui dicta assumenda, quae,
               architecto illo sed, at saepe culpa delectus deleniti ex
@@ -33,7 +33,7 @@ const About = () => {
             <h2 className='text-green-850 font-rubik tracking-normal text-xl mb-1 font-semibold text-left ml-0'>
               Mission Statement
             </h2>
-            <p className='text-sm text-justify mb-3 w-7/12'>
+            <p className='text-sm text-justify mb-3 w-full lg:w-8/12'>
               Lorem ipsum dolor sit amet consectetur, adipisicing
               elit. Error distinctio qui dicta assumenda, quae,
               architecto illo sed, at saepe culpa delectus deleniti ex
@@ -48,12 +48,24 @@ const About = () => {
               Investment Areas
             </h3>
             <ul className='grid grid-cols-3 gap-2'>
-              <li className='font-semibold text-2xl'>Agriculture</li>
-              <li className='font-semibold text-2xl'>Education</li>
-              <li className='font-semibold text-2xl'>ICT</li>
-              <li className='font-semibold text-2xl'>Health</li>
-              <li className='font-semibold text-2xl'>Environment</li>
-              <li className='font-semibold text-2xl'>Tourism</li>
+              <li className='font-semibold md:text-2xl'>
+                Agriculture
+              </li>
+              <li className='font-semibold text-sm md:text-2xl'>
+                Education
+              </li>
+              <li className='font-semibold text-sm md:text-2xl'>
+                ICT
+              </li>
+              <li className='font-semibold text-sm md:text-2xl'>
+                Health
+              </li>
+              <li className='font-semibold text-sm md:text-2xl'>
+                Environment
+              </li>
+              <li className='font-semibold text-sm md:text-2xl'>
+                Tourism
+              </li>
             </ul>
           </div>
         </div>
