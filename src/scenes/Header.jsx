@@ -3,7 +3,7 @@ import { Button } from '../components/Button';
 import './Header.css';
 import MyComponent from '../components/MyComponent';
 import Marquee from 'react-fast-marquee';
-import image1 from '../assets/images/pic.png';
+// import image1 from '../assets/images/pic.png';
 import image2 from '../assets/images/bg.jpg';
 import image3 from '../assets/images/bg2.jpg';
 import Carousel from '../components/Carousel';
