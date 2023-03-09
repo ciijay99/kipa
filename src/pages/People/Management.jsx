@@ -41,7 +41,7 @@ const Management = () => {
           </p>
         </div>
         <section className='executives'>
-          <div className='container executives__container w-full'>
+          <div className='executives__container w-full'>
             {managementData.map(
               ({
                 id,
@@ -55,7 +55,7 @@ const Management = () => {
                 return (
                   <article
                     key={id}
-                    className='executive'
+                    className='executive bg-white'
                   >
                     <div
                       className={`executive__icon flex flex-row gap-8 py-1 ${
@@ -77,7 +77,7 @@ const Management = () => {
                         />
                       )}
                       <h4
-                        className={`${
+                        className={` pr-1 ${
                           id % 2 ? 'text-white' : ' text-gray-900'
                         }`}
                       >
@@ -85,16 +85,17 @@ const Management = () => {
                       </h4>
                     </div>
                     {showSummary && (
-                      <div className=' bg-white grid grid-cols-2'>
+                      <div className='flex flex-col md:flex-row mt-8 mb-8 bg-white w-full items-center'>
                         <img
                           src={img}
-                          alt=''
+                          alt={name}
+                          className='sm:h-72 h-auto w-auto mb-8 sm:mb-0 sm:mr-8 rounded-sm'
                         />
-                        <div className='mt-0 sm:mt-6 md:mt-0'>
+                        <div className='mt-0 sm:mt-6 md:mt-0 bg-white'>
                           <h4 className='text-xl text-blue-850 mb-4'>
                             {name}
                           </h4>
-                          <p className='text-xs text-justify'>
+                          <p className='text-xs text-justify px-2 mb-1'>
                             {summary}
                           </p>
                         </div>

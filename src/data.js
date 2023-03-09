@@ -1,87 +1,65 @@
 import pdf from './assets/pdfs/test.pdf';
+import img from './assets/images/placeholder.jpeg'
+import img2 from './assets/images/placeholder2.jpeg'
 export const board = [
   {
     id: 1,
     name: 'Her Excellency, Dr. Mary Sue',
-    img: 'imgs/Deputy Governor.jpeg',
+    img: img,
     role: 'Chairman',
   },
   {
     id: 2,
     name: 'His Highness, John Doe',
-    img: 'imgs/HRH-Sanusi.jpg',
+    img: img2,
     role: 'Vice Chairman',
   },
   {
     id: 3,
     name: 'John Doe',
-    img: 'imgs/Jimi-Lawal.jpeg',
+    img: img2,
     role: 'Senior Adviser-Counsellor',
   },
   {
     id: 4,
-    name: 'John Doe',
-    img: 'imgs/Balarabe-Abbas-Lawal.jpeg',
+    name: 'Mary Sue',
+    img: img,
     role: 'Secretary to the State Government',
   },
   {
     id: 5,
-    name: 'John Doe',
-    img: 'imgs/Bariatu-Y-Mohammed.jpeg',
+    name: 'Mary Sue',
+    img: img,
     role: 'Head of Service',
   },
   {
     id: 6,
     name: 'John Doe',
-    img: 'imgs/Aisha-Dikko.jpeg',
+    img: img2,
     role: 'Attorney-General of Kebbi State',
   },
   {
     id: 7,
     name: 'John Doe',
-    img: 'imgs/Kabir.jpeg',
-    role: 'Commissioner, Business, Innovation &amp; Technology',
+    img: img2,
+    role: 'Commissioner, Business, Innovation & Technology',
   },
   {
     id: 8,
     name: 'Mary Sue',
-    img: 'imgs/Fausat-Ibikunle.jpeg',
-    role: 'Commissioner, Housing &amp; Urban Development',
+    img: img,
+    role: 'Commissioner, Housing & Urban Development',
   },
   {
     id: 9,
     name: 'John Doe',
-    img: 'imgs/Dattijo.jpeg',
-    role: 'Commissioner, Planning &amp; Budget Commission',
+    img: img2,
+    role: 'Commissioner, Planning & Budget Commission',
   },
   {
     id: 10,
     name: 'Mary Sue',
-    img: 'imgs/Farida-Dankaka.jpeg',
-    role: 'KADCCIMA',
-  },
-  {
-    id: 11,
-    name: 'John Doe',
-    img: 'imgs/Amal-Hassan.jpeg',
-    role: 'Private Sector',
-  },
-  {
-    id: 12,
-    name: 'John Doe',
-    img: 'imgs/Tamar.jpeg',
-    role: 'MD, Kebbi Markets Development Company',
-  },
-  {
-    id: 13,
-    name: 'Mary Sue',
-    img: 'imgs/ALTINE-JIBRIN.jpeg',
-    role: 'Director-General, KADGIS',
-  },
-  {
-    id: 14,
-    name: 'John Doe',
-    img: 'imgs/Khalil.jpeg',
+    img: img,
     role: 'Executive Secretary, KIPA',
   },
 ];
@@ -91,7 +69,7 @@ export const management = [
   {
     id: 1,
     name: 'Mary Sue',
-    img: 'imgs/Khalil.jpeg',
+    img: img,
     role: 'Chief Executive Officer',
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
@@ -99,7 +77,7 @@ export const management = [
   {
     id: 2,
     name: 'John Doe',
-    img: 'imgs/Khalil.jpeg',
+    img: img2,
     role: 'Managing Director',
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
@@ -107,7 +85,7 @@ export const management = [
   {
     id: 3,
     name: 'Mary Sue',
-    img: 'imgs/Khalil.jpeg',
+    img: img,
     role: 'Director, Human Resources and Strategic Planning',
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
@@ -115,7 +93,7 @@ export const management = [
   {
     id: 4,
     name: 'John Doe',
-    img: 'imgs/Khalil.jpeg',
+    img: img2,
     role: 'Head, Investment Promotion and Management',
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
@@ -123,7 +101,7 @@ export const management = [
   {
     id: 5,
     name: 'Mary Sue',
-    img: 'imgs/Khalil.jpeg',
+    img: img,
     role: 'Executive Secretary, KIPA',
     summary:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',

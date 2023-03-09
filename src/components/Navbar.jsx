@@ -108,7 +108,7 @@ function Navbar() {
                 Contact
               </NavLink>
             </li>
-            <li className='nav-item'>
+            {/*  <li className='nav-item'>
               <NavLink
                 to='/Portal'
                 className='nav-links-mobile'
@@ -116,11 +116,11 @@ function Navbar() {
               >
                 Portal
               </NavLink>
-            </li>
+            </li> */}
           </ul>
-          {button && (
+          {/* {button && (
             <Button buttonStyle='btn--outline'>Portal</Button>
-          )}
+          )} */}
         </div>
       </nav>
     </>

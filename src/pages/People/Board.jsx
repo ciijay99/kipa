@@ -57,7 +57,7 @@ const Board = () => {
                   <img
                     className='w-auto h-40 mb-4 rounded-sm'
                     src={img}
-                    alt=''
+                    alt={name}
                   />
                   <p className='text-sm font-bold md:text-base text-center text-blue-850 mb-1'>
                     {name}
