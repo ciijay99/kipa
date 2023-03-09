@@ -11,16 +11,18 @@ import Carousel from '../components/Carousel';
 // import Carousel from 'react-bootstrap/Carousel';
 
 function Header() {
-  const images = [image1, image2, image3];
+  const images = [image2, image3];
   return (
     <>
       <div
-        className='header-container'
+        className=''
         style={{
           width: '100%',
         }}
       >
-        =
+        <div className='relative'>
+          <Carousel images={images} />
+        </div>
         <div className='header-left'>
           <h1>Kebbi Investment Promotion Agency</h1>
           <h4>
@@ -43,16 +45,6 @@ function Header() {
               Discover <i className='far fa-play-circle' />
             </Button>
           </div>
-        </div>
-        <div className='header-right'>
-          <Carousel
-            className='header-carousel'
-            style={{
-              opacity: '1',
-              transform: 'scale(1)',
-            }}
-            images={images}
-          />
         </div>
       </div>
       <div

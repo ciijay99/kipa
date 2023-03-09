@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from '@mui/icons-material';
 
-const Carousel = ({ images, autoPlayInterval = 3000 }) => {
+const Carousel = ({ images, autoPlayInterval = 5000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalRef = useRef(null);
 
@@ -30,15 +30,32 @@ const Carousel = ({ images, autoPlayInterval = 3000 }) => {
   };
 
   return (
-    <div className='relative'>
-      <div className='flex justify-center items-center h-72 overflow-hidden'>
+    <div
+      className='relative'
+      style={{
+        width: '100%',
+        // height: '90v',
+        marginTop: '80px',
+        boxShadow: 'inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.2)',
+        objectFit: 'contain',
+        overflow: 'hidden',
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      <div
+        className='flex justify-center items-center h-96 overflow-hidden w-full'
+        style={{ height: '70vh' }}
+      >
         {images.map((image, index) =>
           index === currentIndex ? (
             <img
               key={index}
               src={image}
               alt={`Carousel ${index}`}
-              className='w-auto h-auto'
+              className='w-full h-auto'
             />
           ) : null
         )}
