@@ -20,6 +20,7 @@ function Header() {
           width: '100%',
         }}
       >
+        =
         <div className='header-left'>
           <h1>Kebbi Investment Promotion Agency</h1>
           <h4>
@@ -42,6 +43,16 @@ function Header() {
               Discover <i className='far fa-play-circle' />
             </Button>
           </div>
+        </div>
+        <div className='header-right'>
+          <Carousel
+            className='header-carousel'
+            style={{
+              opacity: '1',
+              transform: 'scale(1)',
+            }}
+            images={images}
+          />
         </div>
       </div>
       <div
