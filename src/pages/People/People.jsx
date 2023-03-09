@@ -21,7 +21,9 @@ const People = () => {
   };
   return (
     <div className='flex flex-col justify-center items-center mt-32 mb-24'>
-      <nav className='grid grid-cols-2 place-content-around border-b-2 border-green-850 w-3/4'>
+      <nav className='grid sticky top-20 grid-cols-2 place-content-around border-b-2 border-green-850 w-3/4'
+        
+      >
         <button
           className={` w-11/12 justify-self-end py-2 ${
             boardActive ? 'bg-green-850 text-gray-50' : 'bg-gray-300'

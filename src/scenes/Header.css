@@ -15,7 +15,7 @@ video {
 .header-container {
   background: url('../assets/images/bg.jpg') right no-repeat;
   /* background-color: #997; */
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   margin-top: 80px;
   box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.2);
@@ -24,23 +24,28 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 .header-left {
   background-color: rgb(21, 17, 12);
   /* background-color: #997; */
-  width: 45%;
-  left: 0;
+  width: 50%;
+  /* left: 0; */
   display: flex;
   flex-direction: column;
   margin: 2rem;
   padding: 4rem 5rem;
   box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
-  opacity: 0.8;
+  opacity: 0.7;
+  text-align: center;
+  display: inline;
+  max-width: fit-content;
 }
 .header-left > h1 {
   color: #fff;
   font-size: 2.6rem;
-  animation: slideIn 6s 1s linear ;
+  animation: slideIn 1s 1s linear ;
 }
 .header-left > h4 {
   margin-top: 2rem;
@@ -48,19 +53,59 @@ video {
   margin-left: -3.6px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  animation: slideIn 2s 4s linear;
+  animation: slideIn 2s 1s linear;
 }
 .header-left:hover h1{
- font-size: 2.7rem;
+ /* font-size: 2.7rem; */
   cursor: pointer;
 }
 @keyframes slideIn {
-  from { opacity:0; margin-left: -50px; }
-  to{opacity: 0.8;  margin-left: 0px;   }
+  0% { 
+    opacity:0; 
+    margin-left: -50px;
+    display: block;  
+  }
+  20% { 
+    opacity:0.2; 
+    margin-left: -40px; 
+  }
+  50% { 
+    opacity:0.6; 
+    margin-left: -30px; 
+  }
+  75%{ 
+    opacity:0.8; 
+    margin-left: -10px;
+  }
+  100%{ 
+    opacity:1; 
+    margin-left: 0px;
+  }
 }
 @keyframes slideUp {
-  from { opacity:0; margin-top: 100px; }
-  to{opacity: 0.8;  margin-top: 0px;   }
+  0% { 
+    opacity:0; 
+    margin-top: 100px; 
+  }
+  20% { 
+    opacity:0.2; 
+    margin-top: 70px;
+  }
+  50% { 
+    opacity:0.6; 
+    margin-top: 40px;
+    display: none;  
+  }
+  75%{ 
+    opacity:0.8; 
+    margin-top: 10px;
+    display: none; 
+  }
+  100%{ 
+    opacity:1; 
+    margin-top: 0px;
+    display: none; 
+  }
 }
 .header-right{
   width: 45%;
@@ -77,7 +122,7 @@ video {
 }
 .header-btns .btn {
   margin: 5px;
-  animation: slideUp 3s 5s ease-in; 
+  animation: slideUp 2s 1s ease-in; 
 }
 
 .fa-play-circle {

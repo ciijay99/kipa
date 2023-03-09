@@ -8,18 +8,16 @@ import image2 from '../assets/images/bg.jpg';
 import image3 from '../assets/images/bg2.jpg';
 import Carousel from '../components/Carousel';
 
-// import Carousel from 'react-bootstrap/Carousel';
-
 
 function Header() {
   const images = [image1, image2, image3];
   return (
     <>
-      <div className='header-container'
+      <div className='header-container '
       style={{ 
         width:"100%"
       }}>=
-          <div className='header-left'>
+          <div className='header-left object-contain h-85 ' >
               <h1>Kebbi Investment Promotion Agency</h1>
               <h4>
                 Driving Economic Growth and Investment Opportunities in
@@ -42,7 +40,7 @@ function Header() {
                 </Button>
           </div>
         </div>
-        <div className="header-right">
+        {/* <div className="header-right">
         <Carousel
             className="header-carousel"
             style={{
@@ -50,7 +48,7 @@ function Header() {
               transform: 'scale(1)',
             }}
            images={images} />
-        </div>
+        </div> */}
       </div>
         <div
           style={{
