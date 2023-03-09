@@ -58,7 +58,7 @@ const Management = () => {
                     className='executive bg-white'
                   >
                     <div
-                      className={`executive__icon flex flex-row gap-8 py-1 ${
+                      className={`executive__icon cursor-pointer items-center flex flex-row gap-8 py-1 ${
                         id % 2 ? 'bg-green-850' : 'bg-gray-300'
                       }`}
                       onClick={() => handleButtonClick(id)}

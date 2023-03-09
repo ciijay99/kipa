@@ -10,70 +10,72 @@ import Carousel from '../components/Carousel';
 
 // import Carousel from 'react-bootstrap/Carousel';
 
-
 function Header() {
   const images = [image1, image2, image3];
   return (
     <>
-      <div className='header-container'
-      style={{ 
-        width:"100%"
-      }}>=
-          <div className='header-left'>
-              <h1>Kebbi Investment Promotion Agency</h1>
-              <h4>
-                Driving Economic Growth and Investment Opportunities in
-                Kebbi State
-              </h4>
-              <div className='header-btns'>
-                <Button
-                  className='btns'
-                  buttonStyle='btn--outline'
-                  buttonSize='btn--large'
-                >
-                  About 
-                </Button>
-                <Button
-                  className='btns'
-                  buttonStyle='btn--primary'
-                  buttonSize='btn--large'
-                >
-                  Discover <i className='far fa-play-circle' />
-                </Button>
+      <div
+        className='header-container'
+        style={{
+          width: '100%',
+        }}
+      >
+        <div className='header-left'>
+          <h1>Kebbi Investment Promotion Agency</h1>
+          <h4>
+            Driving Economic Growth and Investment Opportunities in
+            Kebbi State
+          </h4>
+          <div className='header-btns'>
+            <Button
+              className='btns'
+              buttonStyle='btn--outline'
+              buttonSize='btn--large'
+            >
+              About
+            </Button>
+            <Button
+              className='btns'
+              buttonStyle='btn--primary'
+              buttonSize='btn--large'
+            >
+              Discover <i className='far fa-play-circle' />
+            </Button>
           </div>
         </div>
-        <div className="header-right">
-        <Carousel
-            className="header-carousel"
+        <div className='header-right'>
+          <Carousel
+            className='header-carousel'
             style={{
               opacity: '1',
               transform: 'scale(1)',
             }}
-           images={images} />
+            images={images}
+          />
         </div>
       </div>
-        <div
+      <div
+        style={{
+          backgroundColor: '#0f6735',
+          width: '100%',
+        }}
+      >
+        <Marquee
+          className='container moving-container'
           style={{
-            backgroundColor: '#0f6735',
+            margin: 'auto',
+            backgroundColor: 'transparent',
             width: '100%',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
+          pauseOnHover='true'
+          gradientColor={false}
+          speed={30}
         >
-          <Marquee
-            className='container moving-container'
-            style={{
-              margin: 'auto',
-              backgroundColor: 'transparent',
-              width: '100%',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-            pauseOnHover='true'
-            gradientColor={false}
-            speed={30}
-          >
-            <MyComponent />
-          </Marquee>
-        </div>
+          <MyComponent />
+        </Marquee>
+      </div>
     </>
   );
 }
