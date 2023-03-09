@@ -33,7 +33,7 @@ const Management = () => {
             Management
           </h2>
           <p className='sm:text-sm text-xs mb-10'>
-            The management overseas the daily running of the KADIPA
+            The management overseas the daily running of the KIPA
             office.
             <br />
             The management is headed by an Executive Secretary and
