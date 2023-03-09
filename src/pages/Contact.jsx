@@ -98,7 +98,7 @@ const Contact = () => {
               name='name'
               value={formData.name}
               placeholder='Enter Your Full Name'
-              className='text-sm mb-4 border-2 border-green-850 p-2 rounded-sm'
+              className='text-sm mb-4 focus:outline-none border-b-2 border-green-850 p-2 rounded-sm'
               onChange={handleChange}
               required
             />
@@ -107,7 +107,7 @@ const Contact = () => {
               name='email'
               value={formData.email}
               placeholder='Enter Your Email'
-              className='text-sm mb-4 border-2 border-green-850 p-2 rounded-sm invalid:text-pink-600'
+              className='text-sm focus:outline-none border-b-2 mb-4 border-green-850 p-2 rounded-sm invalid:text-pink-600'
               onChange={handleChange}
               required
             />
@@ -117,7 +117,7 @@ const Contact = () => {
               rows='10'
               columns='30'
               placeholder='Your Message'
-              className='text-sm mb-6 border-2 border-green-850 p-2 rounded-sm focus-visible:ring-green-850'
+              className='text-sm mb-6 border-2 focus:outline-none border-green-850 p-2 rounded-sm focus-visible:ring-green-850'
               onChange={handleChange}
               style={{
                 '&focus': { outline: '#0F6735 auto 1px' },

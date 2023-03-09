@@ -14,7 +14,7 @@ function Body() {
       style={{
         backgroundColor: '#f1f1f1',
         width: '100%',
-        padding:'2rem',
+        padding: '1rem',
         paddingBottom: '4rem',
         alignItems: 'center',
         margin: 'auto',
@@ -28,7 +28,6 @@ function Body() {
           margin: 'auto',
           width: '80%',
           display: 'flex',
-          
         }}
       >
         <div className='slide-in card'>
@@ -38,15 +37,13 @@ function Body() {
 
         <div
           className='carousel-container'
-          style={{
-           
-          }}
+          style={{}}
         >
           <Carousel
-            className=""
-            style={{
-            }}
-           images={images} />
+            className=''
+            style={{}}
+            images={images}
+          />
         </div>
       </div>
     </div>

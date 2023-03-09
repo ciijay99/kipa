@@ -27,7 +27,7 @@ const Values = () => {
             sx={{ placeSelf: 'center', fontSize: '5rem' }}
           />
         </span>
-        <span className='flex flex-col justify-center px-3'>
+        <span className='flex animate-pulse flex-col justify-center px-3'>
           <TipsAndUpdatesIcon
             sx={{
               placeSelf: 'center',
