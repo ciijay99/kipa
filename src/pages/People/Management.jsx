@@ -85,7 +85,7 @@ const Management = () => {
                       </h4>
                     </div>
                     {showSummary && (
-                      <div className='info grid grid-cols-2'>
+                      <div className=' bg-white grid grid-cols-2'>
                         <img
                           src={img}
                           alt=''
