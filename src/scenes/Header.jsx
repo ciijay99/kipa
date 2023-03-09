@@ -20,8 +20,12 @@ function Header() {
           width: '100%',
         }}
       >
-        <div className='relative object-cover'>
-          <Carousel images={images} />
+        <div className='relative object-cover '
+        style={{ height: '90vh', backgroundColor: 'purple'}}
+        >
+          <Carousel
+           images={images} 
+           />
         </div>
         <div className='header-left'>
           <h1 className=' w-full'>
@@ -31,18 +35,18 @@ function Header() {
             Driving Economic Growth and Investment Opportunities in
             Kebbi State
           </h4>
-          <div className='header-btns grid grid-cols-2 justify-evenly gap-1 object-contain'>
+          <div className='header-btns '>
             <Button
               className='btns'
               buttonStyle='btn--outline'
-              buttonSize='btn--medium'
+              buttonSize='btn--large'
             >
               About
             </Button>
             <Button
               className='btns flex '
               buttonStyle='btn--primary'
-              buttonSize='btn--medium'
+              buttonSize='btn--large'
             >
               Discover
             </Button>

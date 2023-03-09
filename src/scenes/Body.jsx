@@ -36,12 +36,21 @@ function Body() {
         </div>
 
         <div
-          className='carousel-container'
-          style={{}}
+          className='carousel-container relative'
+          style={{
+            width: '100%',
+            // height: '90v',
+            boxShadow: 'inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.2)',
+            objectFit: 'contain',
+            overflow: 'hidden',
+            display: 'flex',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
         >
           <Carousel
             className=''
-            style={{}}
             images={images}
           />
         </div>

@@ -18,7 +18,7 @@
   display: -ms-flexbox;
   display: flex;
   padding: 1.5rem;
-  padding: 5rem;
+  padding: 4.2rem;
   width: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -79,4 +79,8 @@ h6 {
   .main-card {
     flex-flow: column;
   }
+}
+
+.carousel-container{
+  height: 50vh;
 }
