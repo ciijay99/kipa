@@ -2,14 +2,19 @@ import React from 'react';
 import Cards from '../components/Cards.jsx';
 import './Body.css';
 // import Card from '../components/CardItem'
-import image1 from '../assets/images/KIPA-black.png';
+import image1 from '../assets/images/pic.png';
+import image2 from '../assets/images/pic2.png';
+import image3 from '../assets/images/pic3.png';
+import Carousel from '../components/Carousel';
 
 function Body() {
+  const images = [image1, image2, image3];
   return (
     <div
       style={{
         backgroundColor: '#f1f1f1',
         width: '100%',
+        padding:'2rem',
         paddingBottom: '4rem',
         alignItems: 'center',
         margin: 'auto',
@@ -21,9 +26,9 @@ function Body() {
         className='main-card'
         style={{
           margin: 'auto',
-          width: '90%',
+          width: '80%',
           display: 'flex',
-          flexDirection: 'row',
+          
         }}
       >
         <div className='slide-in card'>
@@ -32,22 +37,16 @@ function Body() {
         </div>
 
         <div
-          className='carosuel'
+          className='carousel-container'
           style={{
-            width: '100%',
+           
           }}
         >
-          <img
-            src={image1}
-            alt=''
-            width='100%'
+          <Carousel
+            className=""
             style={{
-              minHeight: '100%',
-              maxWidth: 500,
-              minWidth: '100',
-              maxHeight: 150,
             }}
-          />
+           images={images} />
         </div>
       </div>
     </div>
