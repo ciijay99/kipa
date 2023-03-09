@@ -67,7 +67,7 @@ const Contact = () => {
   return (
     <div className='flex flex-col justify-center items-center bg-white'>
       <div className='contact-header bg-bg bg-center z-20 w-full h-52 mt-20 flex flex-col object-contain justify-center'>
-        <h1 className='text-5xl text-white mb-8 text-center ml-0'>
+        <h1 className='text-5xl font-bold text-white mb-8 text-center ml-0'>
           Contact Us
         </h1>
       </div>
@@ -117,7 +117,7 @@ const Contact = () => {
               rows='10'
               columns='30'
               placeholder='Your Message'
-              className='text-sm mb-6 border-2 focus:outline-none border-green-850 p-2 rounded-sm focus-visible:ring-green-850'
+              className='text-sm mb-6 border-b-2 focus:outline-none border-green-850 p-2 rounded-sm focus-visible:ring-green-850'
               onChange={handleChange}
               style={{
                 '&focus': { outline: '#0F6735 auto 1px' },
