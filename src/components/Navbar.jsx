@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Button } from './Button';
+// import { Button } from './Button';
 import { Menu, Close } from '@mui/icons-material';
 import Logo from '../assets/images/KIPA-green.png';
 import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
+  /* const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
@@ -23,7 +23,7 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
-  }, []);
+  }, []); */
 
   return (
     <>
