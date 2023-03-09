@@ -5,11 +5,11 @@ video {
   position: fixed;
   z-index: -1;
 }
-*{
-  margin:0;
-  padding: 0
+* {
+  margin: 0;
+  padding: 0;
 }
-.container{
+.container {
   justify-content: center;
 }
 .header-container {
@@ -23,13 +23,14 @@ video {
   overflow: hidden;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
 }
 .header-left {
   background-color: rgb(21, 17, 12);
   /* background-color: #997; */
   width: 45%;
-  left: 0;
+  /* left: 0; */
   display: flex;
   flex-direction: column;
   margin: 2rem;
@@ -39,8 +40,9 @@ video {
 }
 .header-left > h1 {
   color: #fff;
+  text-align: center;
   font-size: 2.6rem;
-  animation: slideIn 6s 1s linear ;
+  animation: slideIn 6s 1s linear;
 }
 .header-left > h4 {
   margin-top: 2rem;
@@ -50,19 +52,31 @@ video {
     'Lucida Sans', Arial, sans-serif;
   animation: slideIn 2s 4s linear;
 }
-.header-left:hover h1{
- font-size: 2.7rem;
+.header-left:hover h1 {
+  font-size: 2.7rem;
   cursor: pointer;
 }
 @keyframes slideIn {
-  from { opacity:0; margin-left: -50px; }
-  to{opacity: 0.8;  margin-left: 0px;   }
+  from {
+    opacity: 0;
+    margin-left: -50px;
+  }
+  to {
+    opacity: 0.8;
+    margin-left: 0px;
+  }
 }
 @keyframes slideUp {
-  from { opacity:0; margin-top: 100px; }
-  to{opacity: 0.8;  margin-top: 0px;   }
+  from {
+    opacity: 0;
+    margin-top: 100px;
+  }
+  to {
+    opacity: 0.8;
+    margin-top: 0px;
+  }
 }
-.header-right{
+.header-right {
   width: 45%;
   background-color: rgb(21, 17, 12);
   display: flex;
@@ -74,10 +88,13 @@ video {
 }
 .header-btns {
   margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .header-btns .btn {
   margin: 5px;
-  animation: slideUp 3s 5s ease-in; 
+  animation: slideUp 3s 5s ease-in;
 }
 
 .fa-play-circle {
@@ -97,22 +114,22 @@ video {
     width: 100%;
     font-size: 1rem;
   }
-  .header-left{
+  .header-left {
     height: auto;
     font-size: 0.8rem;
     width: 60%;
     padding: 3rem 4rem;
     margin-left: 0;
   }
-  .header-left > h1{
-      color: #fff;
-      font-size: 2.5rem;
-    }
-  .header-left:hover h1{
+  .header-left > h1 {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  .header-left:hover h1 {
     font-size: 2rem;
-     cursor: pointer;
-   }
-   .header-right{
+    cursor: pointer;
+  }
+  .header-right {
     width: 45%;
     height: 40vh;
     background-color: rgb(21, 17, 12);
@@ -121,11 +138,11 @@ video {
     justify-content: center;
     margin: 4rem 2rem 0rem 2rem;
     box-shadow: inset 0px 0px 0px 1000px rgba(79, 159, 76, 0.5);
-    opacity: 1
-   }
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 960px) {
-  .container{
+  .container {
     width: 100%;
     background-color: blueviolet;
   }
@@ -149,21 +166,21 @@ video {
     width: 100%;
     font-size: 1rem;
   }
-  .header-left{
+  .header-left {
     height: auto;
     font-size: 0.8rem;
     width: 60%;
     padding: 3rem 4rem;
     margin-left: 0;
   }
-  .header-left > h1{
+  .header-left > h1 {
     font-size: 1.5rem;
   }
-  .header-left:hover h1{
+  .header-left:hover h1 {
     font-size: 2rem;
-     cursor: pointer;
-   }
-   .header-right{
+    cursor: pointer;
+  }
+  .header-right {
     display: none;
   }
 }

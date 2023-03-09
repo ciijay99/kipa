@@ -43,16 +43,6 @@ function Header() {
             </Button>
           </div>
         </div>
-        <div className='header-right'>
-          <Carousel
-            className='header-carousel'
-            style={{
-              opacity: '1',
-              transform: 'scale(1)',
-            }}
-            images={images}
-          />
-        </div>
       </div>
       <div
         style={{
