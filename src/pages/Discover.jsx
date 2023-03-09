@@ -13,7 +13,7 @@ const Discover = () => {
         <div className=''
           style={{
             height: '40vh',
-            width: '50%',
+            width: '90%',
             boxShadow: 'inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.2)',
             objectFit: 'contain',
             overflow: 'hidden',
