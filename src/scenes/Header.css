@@ -5,11 +5,11 @@ video {
   position: fixed;
   z-index: -1;
 }
-*{
-  margin:0;
-  padding: 0
+* {
+  margin: 0;
+  padding: 0;
 }
-.container{
+.container {
   justify-content: center;
 }
 .header-container {
@@ -45,7 +45,7 @@ video {
 .header-left > h1 {
   color: #fff;
   font-size: 2.6rem;
-  animation: slideIn 1s 1s linear ;
+  animation: slideIn 1s 1s linear;
 }
 .header-left > h4 {
   margin-top: 2rem;
@@ -55,59 +55,59 @@ video {
     'Lucida Sans', Arial, sans-serif;
   animation: slideIn 2s 1s linear;
 }
-.header-left:hover h1{
- /* font-size: 2.7rem; */
+.header-left:hover h1 {
+  /* font-size: 2.7rem; */
   cursor: pointer;
 }
 @keyframes slideIn {
-  0% { 
-    opacity:0; 
+  0% {
+    opacity: 0;
     margin-left: -50px;
-    display: block;  
+    display: block;
   }
-  20% { 
-    opacity:0.2; 
-    margin-left: -40px; 
+  20% {
+    opacity: 0.2;
+    margin-left: -40px;
   }
-  50% { 
-    opacity:0.6; 
-    margin-left: -30px; 
+  50% {
+    opacity: 0.6;
+    margin-left: -30px;
   }
-  75%{ 
-    opacity:0.8; 
+  75% {
+    opacity: 0.8;
     margin-left: -10px;
   }
-  100%{ 
-    opacity:1; 
+  100% {
+    opacity: 1;
     margin-left: 0px;
   }
 }
 @keyframes slideUp {
-  0% { 
-    opacity:0; 
-    margin-top: 100px; 
+  0% {
+    opacity: 0;
+    margin-top: 100px;
   }
-  20% { 
-    opacity:0.2; 
+  20% {
+    opacity: 0.2;
     margin-top: 70px;
   }
-  50% { 
-    opacity:0.6; 
+  50% {
+    opacity: 0.6;
     margin-top: 40px;
-    display: none;  
+    display: none;
   }
-  75%{ 
-    opacity:0.8; 
+  75% {
+    opacity: 0.8;
     margin-top: 10px;
-    display: none; 
+    display: none;
   }
-  100%{ 
-    opacity:1; 
+  100% {
+    opacity: 1;
     margin-top: 0px;
-    display: none; 
+    display: none;
   }
 }
-.header-right{
+.header-right {
   width: 45%;
   background-color: rgb(21, 17, 12);
   display: flex;
@@ -122,7 +122,7 @@ video {
 }
 .header-btns .btn {
   margin: 5px;
-  animation: slideUp 2s 1s ease-in; 
+  animation: slideUp 2s 1s ease-in;
 }
 
 .fa-play-circle {
@@ -142,22 +142,22 @@ video {
     width: 100%;
     font-size: 1rem;
   }
-  .header-left{
+  .header-left {
     height: auto;
     font-size: 0.8rem;
     width: 60%;
     padding: 3rem 4rem;
     margin-left: 0;
   }
-  .header-left > h1{
-      color: #fff;
-      font-size: 2.5rem;
-    }
-  .header-left:hover h1{
+  .header-left > h1 {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  .header-left:hover h1 {
     font-size: 2rem;
-     cursor: pointer;
-   }
-   .header-right{
+    cursor: pointer;
+  }
+  .header-right {
     width: 45%;
     height: 40vh;
     background-color: rgb(21, 17, 12);
@@ -166,11 +166,11 @@ video {
     justify-content: center;
     margin: 4rem 2rem 0rem 2rem;
     box-shadow: inset 0px 0px 0px 1000px rgba(79, 159, 76, 0.5);
-    opacity: 1
-   }
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 960px) {
-  .container{
+  .container {
     width: 100%;
     background-color: blueviolet;
   }
@@ -194,21 +194,21 @@ video {
     width: 100%;
     font-size: 1rem;
   }
-  .header-left{
+  .header-left {
     height: auto;
     font-size: 0.8rem;
     width: 60%;
     padding: 3rem 4rem;
     margin-left: 0;
   }
-  .header-left > h1{
+  .header-left > h1 {
     font-size: 1.5rem;
   }
-  .header-left:hover h1{
+  .header-left:hover h1 {
     font-size: 2rem;
-     cursor: pointer;
-   }
-   .header-right{
+    cursor: pointer;
+  }
+  .header-right {
     display: none;
   }
 }
