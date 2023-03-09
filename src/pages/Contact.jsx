@@ -76,14 +76,14 @@ const Contact = () => {
         id='contact--body__section'
       >
         <div
-          className=' flex flex-col mb-24 justify-center bg-yellow-75 items-center'
+          className=' flex flex-col mb-24 justify-center bg-yellow-75 items-center w-[80vw] sm:h-[50vw] mt-[-10vw] sm:mt-[-5vw]'
           style={{
             boxShadow:
               '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 2px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
             borderRadius: '1vw',
-            width: '50vw',
+            // width: '50vw',
             minHeight: '50vw',
-            marginTop: '-5vw',
+            // marginTop: '-5vw',
             marginBottom: '0px',
             padding: '8vw 2vw 5vw',
             overflow: 'hidden',
@@ -133,7 +133,7 @@ const Contact = () => {
           </form>
           {statusMessage && <p>{statusMessage}</p>}
         </div>
-        <div className=' w-10/12 h-auto flex flex-col mb-24 p-10 justify-center text-left lg:w-5/12'>
+        <div className=' w-11/12 h-auto flex flex-col mb-24 md:p-10 justify-center text-left lg:w-5/12'>
           <h2 className='text-green-850 text-center text-4xl'>
             Get In Touch
           </h2>

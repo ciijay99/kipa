@@ -140,14 +140,4 @@ export const publications = [
     name: 'KIPA LAW',
     link: pdf,
   },
-  {
-    id: 7,
-    name: 'Kebbi Investment Opportunities',
-    link: pdf,
-  },
-  {
-    id: 8,
-    name: 'Kebbi Infrastructure Masterplan',
-    link: pdf,
-  },
 ];

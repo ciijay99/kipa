@@ -20,12 +20,11 @@ function Header() {
           width: '100%',
         }}
       >
-        <div className='relative object-cover '
-        style={{ height: '90vh', backgroundColor: 'purple'}}
+        <div
+          className='relative object-cover '
+          style={{ height: '90vh' }}
         >
-          <Carousel
-           images={images} 
-           />
+          <Carousel images={images} />
         </div>
         <div className='header-left'>
           <h1 className=' w-full'>
