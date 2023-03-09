@@ -2,87 +2,87 @@ import pdf from './assets/pdfs/test.pdf';
 export const board = [
   {
     id: 1,
-    name: 'Her Excellency, Dr. Hadiza Sabuwa Balarabe',
+    name: 'Her Excellency, Dr. Mary Sue',
     img: 'imgs/Deputy Governor.jpeg',
     role: 'Chairman',
   },
   {
     id: 2,
-    name: 'His Highness, Muhammadu Sanusi II',
+    name: 'His Highness, John Doe',
     img: 'imgs/HRH-Sanusi.jpg',
     role: 'Vice Chairman',
   },
   {
     id: 3,
-    name: 'Jimi Lawal',
+    name: 'John Doe',
     img: 'imgs/Jimi-Lawal.jpeg',
     role: 'Senior Adviser-Counsellor',
   },
   {
     id: 4,
-    name: 'Balarabe Abbas Lawal',
+    name: 'John Doe',
     img: 'imgs/Balarabe-Abbas-Lawal.jpeg',
     role: 'Secretary to the State Government',
   },
   {
     id: 5,
-    name: 'Bariatu Y. Mohammed',
+    name: 'John Doe',
     img: 'imgs/Bariatu-Y-Mohammed.jpeg',
     role: 'Head of Service',
   },
   {
     id: 6,
-    name: 'Aisha Dikko',
+    name: 'John Doe',
     img: 'imgs/Aisha-Dikko.jpeg',
-    role: 'Attorney-General of Kaduna State',
+    role: 'Attorney-General of Kebbi State',
   },
   {
     id: 7,
-    name: 'Kabir Mato',
+    name: 'John Doe',
     img: 'imgs/Kabir.jpeg',
     role: 'Commissioner, Business, Innovation &amp; Technology',
   },
   {
     id: 8,
-    name: 'Fausat Ibikunle',
+    name: 'Mary Sue',
     img: 'imgs/Fausat-Ibikunle.jpeg',
     role: 'Commissioner, Housing &amp; Urban Development',
   },
   {
     id: 9,
-    name: 'Muhammad Sani Dattijo',
+    name: 'John Doe',
     img: 'imgs/Dattijo.jpeg',
     role: 'Commissioner, Planning &amp; Budget Commission',
   },
   {
     id: 10,
-    name: 'Farida Dankaka',
+    name: 'Mary Sue',
     img: 'imgs/Farida-Dankaka.jpeg',
     role: 'KADCCIMA',
   },
   {
     id: 11,
-    name: 'Amal Hassan',
+    name: 'John Doe',
     img: 'imgs/Amal-Hassan.jpeg',
     role: 'Private Sector',
   },
   {
     id: 12,
-    name: 'Tabar Nandul',
+    name: 'John Doe',
     img: 'imgs/Tamar.jpeg',
-    role: 'MD, Kaduna Markets Development Company',
+    role: 'MD, Kebbi Markets Development Company',
   },
   {
     id: 13,
-    name: 'Altine Jibrin',
+    name: 'Mary Sue',
     img: 'imgs/ALTINE-JIBRIN.jpeg',
     role: 'Director-General, KADGIS',
   },
   {
     id: 14,
-    name: 'Khalil Nur Khalil',
+    name: 'John Doe',
     img: 'imgs/Khalil.jpeg',
-    role: 'Executive Secretary, KADIPA',
+    role: 'Executive Secretary, KIPA',
   },
 ];
 
@@ -90,44 +90,43 @@ export const board = [
 export const management = [
   {
     id: 1,
-    name: 'Khalil Nur Khalil',
+    name: 'Mary Sue',
     img: 'imgs/Khalil.jpeg',
-    role: 'Executive Secretary, KADIPA',
+    role: 'Chief Executive Officer',
     summary:
-      'Khalil has a first-class Bachelors of Science in Economics with high honours and was the best graduating student in the Economics department at the Eastern Mediterranean University, after achieving a GPA of 3.98/4.00.He has experience in the public investment policy, promotion, and facilitation space at the subnational level. He is passionate about economic development for Africa, and has spent the last 3 years helping to grow Kaduna States economy via dedicated efforts of improving the business environment to attract private sector capital. This deliberate and coordinated effort culminated in Kaduna State being ranked number 1 in the World Banks 2018 sub-national Doing Business in Nigeria report with over $2 billion dollars worth of investments attracted. He was appointed Executive Secretary on the 11th of October 2021.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
   },
-
   {
     id: 2,
-    name: 'Khalil Nur Khalil',
+    name: 'John Doe',
     img: 'imgs/Khalil.jpeg',
-    role: 'Executive Secretary',
+    role: 'Managing Director',
     summary:
-      'Khalil has a first-class Bachelors of Science in Economics with high honours and was the best graduating student in the Economics department at the Eastern Mediterranean University, after achieving a GPA of 3.98/4.00.He has experience in the public investment policy, promotion, and facilitation space at the subnational level. He is passionate about economic development for Africa, and has spent the last 3 years helping to grow Kaduna States economy via dedicated efforts of improving the business environment to attract private sector capital. This deliberate and coordinated effort culminated in Kaduna State being ranked number 1 in the World Banks 2018 sub-national Doing Business in Nigeria report with over $2 billion dollars worth of investments attracted. He was appointed Executive Secretary on the 11th of October 2021.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
   },
   {
     id: 3,
-    name: 'Khalil Nur Khalil',
+    name: 'Mary Sue',
     img: 'imgs/Khalil.jpeg',
-    role: 'Executive Secretary, KADIPA',
+    role: 'Director, Human Resources and Strategic Planning',
     summary:
-      'Khalil has a first-class Bachelors of Science in Economics with high honours and was the best graduating student in the Economics department at the Eastern Mediterranean University, after achieving a GPA of 3.98/4.00.He has experience in the public investment policy, promotion, and facilitation space at the subnational level. He is passionate about economic development for Africa, and has spent the last 3 years helping to grow Kaduna States economy via dedicated efforts of improving the business environment to attract private sector capital. This deliberate and coordinated effort culminated in Kaduna State being ranked number 1 in the World Banks 2018 sub-national Doing Business in Nigeria report with over $2 billion dollars worth of investments attracted. He was appointed Executive Secretary on the 11th of October 2021.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
   },
   {
     id: 4,
-    name: 'Khalil Nur Khalil',
+    name: 'John Doe',
     img: 'imgs/Khalil.jpeg',
-    role: 'Executive Secretary, KADIPA',
+    role: 'Head, Investment Promotion and Management',
     summary:
-      'Khalil has a first-class Bachelors of Science in Economics with high honours and was the best graduating student in the Economics department at the Eastern Mediterranean University, after achieving a GPA of 3.98/4.00.He has experience in the public investment policy, promotion, and facilitation space at the subnational level. He is passionate about economic development for Africa, and has spent the last 3 years helping to grow Kaduna States economy via dedicated efforts of improving the business environment to attract private sector capital. This deliberate and coordinated effort culminated in Kaduna State being ranked number 1 in the World Banks 2018 sub-national Doing Business in Nigeria report with over $2 billion dollars worth of investments attracted. He was appointed Executive Secretary on the 11th of October 2021.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
   },
   {
     id: 5,
-    name: 'Khalil Nur Khalil',
+    name: 'Mary Sue',
     img: 'imgs/Khalil.jpeg',
-    role: 'Executive Secretary, KADIPA',
+    role: 'Executive Secretary, KIPA',
     summary:
-      'Khalil has a first-class Bachelors of Science in Economics with high honours and was the best graduating student in the Economics department at the Eastern Mediterranean University, after achieving a GPA of 3.98/4.00.He has experience in the public investment policy, promotion, and facilitation space at the subnational level. He is passionate about economic development for Africa, and has spent the last 3 years helping to grow Kaduna States economy via dedicated efforts of improving the business environment to attract private sector capital. This deliberate and coordinated effort culminated in Kaduna State being ranked number 1 in the World Banks 2018 sub-national Doing Business in Nigeria report with over $2 billion dollars worth of investments attracted. He was appointed Executive Secretary on the 11th of October 2021.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fugit voluptatem aliquid ipsum sunt cum, et excepturi, voluptas ipsa veniam tempora similique dolorum, assumenda ut animi. Quia explicabo sed delectus aperiam assumenda, aliquam maiores vel quaerat unde nobis quod mollitia aspernatur iste sit eius. Iste eius similique aut in itaque ab quos animi cupiditate dolorem adipisci eos at voluptates quam voluptatem explicabo, ad, nihil temporibus eveniet. Odio cupiditate molestias perspiciatis quisquam. Unde placeat praesentium reprehenderit! Adipisci neque eum expedita inventore quo cupiditate, quasi odio quae ullam error voluptatem aliquid pariatur voluptatum blanditiis similique molestiae nam rem. Neque sunt, provident nobis quae illum cupiditate nemo tempora incidunt! Perspiciatis maxime aperiam dolorem.',
   },
 ];
 
@@ -135,7 +134,7 @@ export const management = [
 export const publications = [
   {
     id: 1,
-    name: 'KADINVEST 7.0 Report',
+    name: 'KIPA 7.0 Report',
     link: pdf,
   },
   {
@@ -155,22 +154,22 @@ export const publications = [
   },
   {
     id: 5,
-    name: 'Investment Opportunities in Kaduna State’s Power Sector',
+    name: 'Investment Opportunities in Kebbi State’s Power Sector',
     link: pdf,
   },
   {
     id: 6,
-    name: 'KADIPA LAW',
+    name: 'KIPA LAW',
     link: pdf,
   },
   {
     id: 7,
-    name: 'Kaduna Investment Opportunities',
+    name: 'Kebbi Investment Opportunities',
     link: pdf,
   },
   {
     id: 8,
-    name: 'Kaduna Infrastructure Masterplan',
+    name: 'Kebbi Infrastructure Masterplan',
     link: pdf,
   },
 ];
