@@ -11,14 +11,14 @@ const Board = () => {
 
         <div className='mt-8'>
           <p className='text-sm'>
-            The Kadipa board consists of high profile individuals with
-            diverse backgrounds in both the private and the public
-            sector in compliance with the KADIPA Law of 2015.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Ducimus expedita sequi tenetur blanditiis harum dolores
+            ea, a labore porro magnam libero dicta vero dolorem amet
+            ipsa deserunt maiores nobis molestiae!
           </p>
 
           <p className='text-sm mt-4'>
-            The board is Chaired by Her Excellency, Dr. Hadiza Sabuwa
-            Balarabe, the Deputy Governor of Kaduna State.
+            The board is Chaired by {board[0].name}.
           </p>
         </div>
 
@@ -59,7 +59,6 @@ const Board = () => {
                     src={img}
                     alt=''
                   />
-
                   <p className='text-sm font-bold md:text-base text-center text-blue-850 mb-1'>
                     {name}
                   </p>

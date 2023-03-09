@@ -1,10 +1,10 @@
-import React from 'react';
+import Values from '../scenes/Values';
 
 const About = () => {
   return (
     <div className='flex justify-center items-center'>
       <div className='w-full h-auto flex flex-col mt-32 mb-24'>
-        <div className='w-9/12 h-screen flex place-self-center flex-col'>
+        <div className='w-9/12 flex place-self-center flex-col'>
           <h1 className='text-4xl text-green-850 text-bold mb-4 text-left font-rubik ml-0'>
             Who We Are
           </h1>
@@ -41,25 +41,23 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='flex-col justify-center object-contain flex h-72 bg-fixed bg-no-repeat bg-transparent bg-bg bg-bottom bg-cover'>
-          <div className='flex flex-col text-white justify-center  text-center align-middle'>
-            <h3 className=' font-rubik font-semibold text-2xl'>
+        <div className='flex-col backdrop-blur-sm inset-0 justify-center object-contain flex h-72 bg-fixed bg-no-repeat bg-bg bg-top bg-cover'>
+          {/* <div class='absolute inset-0 backdrop-blur-sm'></div> */}
+          <div className='inset-0 flex flex-col text-white justify-center text-center align-middle z-10'>
+            <h3 className='font-rubik font-bold text-white text-4xl pb-5'>
               Investment Areas
             </h3>
-            <ul>
-              <li>Agriculture</li>
-              <li>Education</li>
-              <li>ICT</li>
-              <li>Health</li>
-              <li>Environment</li>
+            <ul className='grid grid-cols-3 gap-2'>
+              <li className='font-semibold text-2xl'>Agriculture</li>
+              <li className='font-semibold text-2xl'>Education</li>
+              <li className='font-semibold text-2xl'>ICT</li>
+              <li className='font-semibold text-2xl'>Health</li>
+              <li className='font-semibold text-2xl'>Environment</li>
+              <li className='font-semibold text-2xl'>Tourism</li>
             </ul>
           </div>
         </div>
-        <div>
-          <h1 className='text-3xl text-green-850 text-bold mb-4 mt-10 text-center font-rubik ml-0'>
-            Our Values
-          </h1>
-        </div>
+        <Values />
       </div>
     </div>
   );

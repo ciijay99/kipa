@@ -66,17 +66,17 @@ const Contact = () => {
 
   return (
     <div className='flex flex-col justify-center items-center bg-white'>
-      <div className='contact-header z-20 w-full h-52 mt-20 flex flex-col object-contain justify-center'>
+      <div className='contact-header bg-bg bg-center z-20 w-full h-52 mt-20 flex flex-col object-contain justify-center'>
         <h1 className='text-5xl text-white mb-8 text-center ml-0'>
           Contact Us
         </h1>
       </div>
       <div
-        className='w-full h-auto flex gap-7 z-10 mb-10 bg-white p-10 place-content-between justify-center'
+        className='w-full h-auto flex gap-7 z-10 mb-10 bg-white p-10 place-content-between justify-center flex-col place-items-center lg:flex-row'
         id='contact--body__section'
       >
         <div
-          className=' flex flex-col mb-24 justify-center bg-yellow-850 items-center'
+          className=' flex flex-col mb-24 justify-center bg-yellow-75 items-center'
           style={{
             boxShadow:
               '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 2px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
@@ -126,14 +126,14 @@ const Contact = () => {
             ></textarea>
             <button
               type='submit'
-              className='w-4/5 bg-green-950 text-white align-middle place-self-center p-2 rounded-sm sm:text-sm hover:bg-yellow-950 hover:text-white'
+              className='w-4/5 bg-green-950 text-white align-middle place-self-center p-2 rounded-sm sm:text-sm'
             >
               Send Message
             </button>
           </form>
           {statusMessage && <p>{statusMessage}</p>}
         </div>
-        <div className=' w-5/12 h-auto flex flex-col mb-24 p-10 justify-center text-left'>
+        <div className=' w-10/12 h-auto flex flex-col mb-24 p-10 justify-center text-left lg:w-5/12'>
           <h2 className='text-green-850 text-center text-4xl'>
             Get In Touch
           </h2>
