@@ -71,6 +71,7 @@ h2 {
     flex-flow: column;
   }
 }
-.carousel-container{
-  height: 50vh;
+.carousel-container {
+  /* height: 60vh; */
+  justify-content: center;
 }

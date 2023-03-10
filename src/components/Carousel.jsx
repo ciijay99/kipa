@@ -31,7 +31,7 @@ const Carousel = ({ images, autoPlayInterval = 5000 }) => {
 
   return (
     <div
-      className='relative'
+      className=''
       //     style={{
       //    //  width: '100%',
       //   //   // height: '90v',
@@ -46,8 +46,8 @@ const Carousel = ({ images, autoPlayInterval = 5000 }) => {
       //    }}
     >
       <div
-        className=' carousel-container flex justify-center items-center min-h-full overflow-hidden w-full '
-        style={{ height: '90vh' }}
+        className='h-[50vh] sm:h-[85vh] carousel-container flex justify-center items-center min-h-full overflow-hidden w-full '
+        // style={{ height: '90vh' }}
       >
         {images.map((image, index) =>
           index === currentIndex ? (
@@ -55,20 +55,20 @@ const Carousel = ({ images, autoPlayInterval = 5000 }) => {
               key={index}
               src={image}
               alt={`Carousel ${index}`}
-              className='min-h-fit w-full h-full lg:h-auto'
+              className='min-h-fit w-full h-full lg:h-full'
             />
           ) : null
         )}
       </div>
 
       <button
-        className='h-96 absolute top-1/2 left-0 transform text-black -translate-y-1/2 transparent border-none outline-none cursor-pointer p-3 rounded-none flex items-center justify-center opacity-10 transition-colors duration-300 bg-white hover:bg-white hover:text-white-850 hover:opacity-60'
+        className='h-96 absolute top-1/2 left-0 transform text-black -translate-y-1/2 transparent border-none outline-none cursor-pointer p-3 rounded-none hidden md:flex items-center justify-center opacity-10 transition-colors duration-300 bg-white hover:bg-white hover:text-white-850 hover:opacity-60'
         onClick={handlePrevClick}
       >
         <ChevronLeft />
       </button>
       <button
-        className='h-96 absolute top-1/2 right-0 transform text-black -translate-y-1/2 transparent border-none outline-none cursor-pointer p-3 rounded-none flex items-center justify-center opacity-10 transition-colors duration-300 bg-white hover:bg-white hover:text-white-850 hover:opacity-60' //bg-green-850
+        className='h-96 absolute top-1/2 right-0 transform text-black -translate-y-1/2 transparent border-none outline-none cursor-pointer p-3 rounded-none hidden md:flex items-center justify-center opacity-10 transition-colors duration-300 bg-white hover:bg-white hover:text-white-850 hover:opacity-60' //bg-green-850
         onClick={handleNextClick}
       >
         <ChevronRight />

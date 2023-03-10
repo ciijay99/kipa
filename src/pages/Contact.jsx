@@ -76,7 +76,7 @@ const Contact = () => {
         id='contact--body__section'
       >
         <div
-          className=' flex flex-col mb-24 justify-center bg-yellow-75 items-center w-[80vw] sm:h-[50vw] mt-[-10vw] sm:mt-[-5vw]'
+          className=' flex flex-col mb-24 justify-center bg-yellow-75 items-center w-[80vw] sm:w-[50vw] sm:h-[50vw] mt-[-10vw] sm:mt-[-5vw]'
           style={{
             boxShadow:
               '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 2px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
@@ -142,11 +142,11 @@ const Contact = () => {
             fill out the enquiry form and a member of our response
             team would reach out to you.
           </h4>
-          <h6 className='flex gap-1'>
+          <h4 className='flex gap-1'>
             <EmailIcon sx={{ color: 'green' }} />
             <h6 className='font-medium'>Email:&nbsp;</h6>
             contact-kipa@kbsg.gov.ng
-          </h6>
+          </h4>
           <a href='tel:+234123456789'>
             <h4 className='text-left flex gap-1'>
               <PhoneIcon sx={{ color: 'green' }} />
@@ -155,12 +155,12 @@ const Contact = () => {
             </h4>
           </a>
           <div>
-            <h6 className='flex gap-1'>
+            <h4 className='flex gap-1'>
               <PlaceIcon sx={{ color: 'green' }} />
               <h6 className='font-medium'>Location:&nbsp;</h6>
               Lorem ipsum, dolor sit amet consectetur adipisicing
               elit. Dolore, omnis.
-            </h6>
+            </h4>
           </div>
         </div>
       </div>

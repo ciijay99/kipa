@@ -15,19 +15,19 @@ function Header() {
   return (
     <>
       <div
-        className=''
+        className='header'
         style={{
           width: '100%',
         }}
       >
         <div
-          className='relative object-cover '
-          style={{ height: '90vh' }}
+          className=' object-contain '
+          // style={{ height: '90vh' }}
         >
           <Carousel images={images} />
         </div>
-        <div className='header-left'>
-          <h1 className=' w-full'>
+        <div className='header-left object-contain'>
+          <h1 className=' w-full font-rubik font-medium'>
             Kebbi Investment Promotion Agency
           </h1>
           <h4 className=' w-full hidden justify-center md:flex'>
