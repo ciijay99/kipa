@@ -20,7 +20,7 @@ const People = () => {
     }
   };
   return (
-    <div className='flex flex-col justify-center items-center mt-32 mb-24'>
+    <div className='flex flex-col w-full justify-center items-center mt-32 mb-24'>
       <nav className='grid sticky top-20 grid-cols-2 place-content-around border-b-2 border-green-850 w-full lg:w-full'>
         <button
           className={` w-11/12 justify-self-end py-2 ${
@@ -46,7 +46,7 @@ const People = () => {
           <Board />
         </div>
       ) : (
-        <div className=''>
+        <div className='w-full'>
           <Management />
         </div>
       )}
