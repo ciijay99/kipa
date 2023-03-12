@@ -7,6 +7,7 @@ import Marquee from 'react-fast-marquee';
 import image2 from '../assets/images/bg.jpg';
 import image3 from '../assets/images/bg2.jpg';
 import Carousel from '../components/Carousel';
+import CarouselHead from './CarouselHead';
 
 // import Carousel from 'react-bootstrap/Carousel';
 
@@ -21,10 +22,11 @@ function Header() {
         }}
       >
         <div
-          className=' object-contain '
+          className=' object-contain h-[50vh] md:h-[85vh] '
           // style={{ height: '90vh' }}
         >
-          <Carousel images={images} />
+          {/* <Carousel images={images} /> */}
+          <CarouselHead />
         </div>
         <div className='header-left object-contain'>
           <h1 className=' w-full font-rubik font-medium'>

@@ -18,6 +18,10 @@ module.exports = {
       },
       backgroundImage: {
         bg: "linear-gradient(90deg, rgba(0, 34, 36, 0.7) 1%, rgba(0, 0, 0, 0.7) 56%, rgba(15, 103, 53, 0.7) 100%), url('../src/assets/images/bg.jpg')",
+        bg2: "linear-gradient(90deg, rgba(0, 34, 36, 0.7) 1%, rgba(0, 0, 0, 0.7) 56%, rgba(15, 103, 53, 0.7) 100%), url('../src/assets/images/video.gif')",
+      },
+      boxShadow: {
+        '3xl': '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 2px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
       },
     },
   },
