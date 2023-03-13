@@ -20,10 +20,10 @@ const People = () => {
     }
   };
   return (
-    <div className='flex flex-col w-full justify-center items-center mt-32 mb-24'>
+    <div className='flex flex-col w-full justify-center items-center mt-32 mb-32'>
       <nav className='grid sticky top-20 grid-cols-2 place-content-around border-b-2 border-green-850 w-full lg:w-full'>
         <button
-          className={` w-11/12 justify-self-end py-2 ${
+          className={` w-10/12 justify-self-end py-2 ${
             boardActive ? 'bg-green-850 text-gray-50' : 'bg-gray-300'
           }`}
           onClick={(e) => handleClick(e, 'board')}
@@ -31,7 +31,7 @@ const People = () => {
           Board of Directors
         </button>
         <button
-          className={` w-11/12 ${
+          className={` w-10/12 ${
             managementActive
               ? 'bg-green-850  text-gray-50'
               : 'bg-gray-300'
