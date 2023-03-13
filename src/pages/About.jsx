@@ -4,17 +4,44 @@ const About = () => {
   return (
     <div className='flex justify-center items-center mb-32'>
       <div className='w-full h-auto flex flex-col mt-16'>
-        <div className='contact-header bg-no-repeat bg-cover bg-bg2 bg-center z-20 w-full h-60  mb-20 flex flex-col object-contain justify-center'>
+        <div className='contact-header bg-no-repeat bg-cover bg-bg2 bg-center z-20 w-full h-64  mb-20 flex flex-col object-contain justify-center'>
           <h1 className='text-5xl font-bold text-white mb-8 text-center ml-0'>
             About Us
           </h1>
         </div>
 
         <div
-          className='w-9/12 flex place-self-center flex-col mb-16'
+          className=' w-10/12 md:w-9/12 flex place-self-center flex-col mb-16'
           id='who-we-are'
         >
-          <h1 className='text-4xl text-green-850 text-bold mb-4 text-left font-rubik ml-0'>
+          <div className='h-auto w-full sm:w-full shadow-3xl place-self-center mb-20 mt-10 flex flex-col sm:flex-row p-14 bg-gray-50 rounded-xl justify-around'>
+            <div className='w-full sm:w-1/3 h-full flex justify-center place-self-center'>
+              <h2 className='font-medium text-xl md:text-4xl text-green-850 mt-2 sm:mt-0 mb-5 sm:mb-0'>
+                Who We Are
+              </h2>
+            </div>
+            <div className='border-t-2 sm:border-t-0 sm:border-l-2 border-green-850 mb-8 w-full sm:w-8 md:w-1 sm:h-full sm:mb-0'></div>
+            <div className='w-full h-72 sm:w-3/5 sm:h-full flex flex-col justify-between mb-8 sm:mb-0'>
+              <p className=' text-xs sm:text-sm font-light text-justify sm:text-left leading-normal  mb-5 md:mb-3'>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Error sed reiciendis temporibus, est officia
+                aliquam nemo voluptates dolorum ea porro rerum, sit
+                officiis qui doloribus dicta neque nostrum corporis
+                animi. Soluta debitis enim laboriosam consequatur
+                error.
+              </p>
+              <p className='text-xs sm:text-sm font-light text-justify leading-normal sm:text-left'>
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Sed, tenetur aliquam libero repellat amet
+                blanditiis minus a tempora, sapiente, voluptatibus
+                reiciendis fuga quas rem illo quibusdam consequatur?
+                Eaque dolore laborum, corrupti incidunt officiis
+                repellendus fugiat accusantium exercitationem, porro
+                odio deleniti.
+              </p>
+            </div>
+          </div>
+          {/* <h1 className='text-4xl text-green-850 text-bold mb-4 text-left font-rubik ml-0'>
             Who We Are
           </h1>
           <p className='text-sm text-left w-full lg:w-8/12'>
@@ -28,7 +55,7 @@ const About = () => {
             provident inventore aliquam. Laudantium a similique
             quisquam reiciendis nostrum quam earum? Nisi, explicabo
             dicta!
-          </p>
+          </p> */}
           <div className='mt-10 mb-8 justify-self-center flex flex-col'>
             <h2 className='text-green-850 font-rubik tracking-normal text-xl font-semibold mb-1 text-left ml-0'>
               Our Vision

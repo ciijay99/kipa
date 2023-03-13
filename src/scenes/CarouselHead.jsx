@@ -1,14 +1,14 @@
-import { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper';
+import { Autoplay, EffectFade, Navigation } from 'swiper';
 
 // import images
 import bg1 from '../assets/images/bg.jpg';
@@ -24,6 +24,7 @@ export default function App() {
         spaceBetween={30}
         // slidesPerView={1}
         loop={true}
+        effect={'fade'}
         centeredSlides={true}
         autoplay={{
           delay: 4000,
@@ -33,7 +34,7 @@ export default function App() {
           clickable: true,
         }}
         navigation={false}
-        modules={[Autoplay, Navigation]}
+        modules={[Autoplay, EffectFade, Navigation]}
         className='mySwiper'
       >
         <SwiperSlide>

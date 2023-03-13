@@ -306,6 +306,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 1s !important;
 }
 
 .swiper-slide img {

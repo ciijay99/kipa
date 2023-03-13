@@ -35,9 +35,7 @@ function Body() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Obcaecati vel tenetur a enim, delectus fugiat libero aut
             consequatur! Maxime dicta a quaerat dolorum officia
-            mollitia sunt nam tenetur cumque laboriosam. Earum, sequi
-            accusantium similique dicta maxime explicabo cupiditate
-            perspiciatis sit, modi iste alias fugiat quasi.
+            mollitia sunt nam tenetur cumque laboriosam.
           </p>
           <p className='text-xs font-light text-justify sm:text-left'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
