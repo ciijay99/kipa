@@ -1,14 +1,25 @@
-import React from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper';
+
 import Cards from '../components/Cards.jsx';
 import './Body.css';
 // import Card from '../components/CardItem'
 import image1 from '../assets/images/pic.png';
 import image2 from '../assets/images/pic2.png';
 import image3 from '../assets/images/pic3.png';
-import Carousel from '../components/Carousel';
+// import Carousel from '../components/Carousel';
 
 function Body() {
-  const images = [image1, image2, image3];
+  // const images = [image1, image2, image3];
   return (
     <div
       style={{
@@ -23,7 +34,7 @@ function Body() {
         justifyContent: 'center',
       }}
     >
-      <div className='h-auto w-5/6 sm:w-10/12 shadow-3xl mb-20 mt-10 flex flex-col sm:flex-row p-12 bg-gray-100 rounded-xl justify-around'>
+      {/* <div className='h-auto w-5/6 sm:w-10/12 shadow-3xl mb-20 mt-10 flex flex-col sm:flex-row p-12 bg-gray-100 rounded-xl justify-around'>
         <div className='w-full sm:w-1/3 h-full flex justify-center place-self-center'>
           <h2 className='font-medium text-xl text-green-850 mt-2 sm:mt-0 mb-5 sm:mb-0'>
             ABOUT KIPA
@@ -234,7 +245,7 @@ function Body() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Cards />
 
@@ -265,10 +276,50 @@ function Body() {
             justifyContent: 'center',
           }}
         >
+          {/* 
           <Carousel
             className=''
             images={images}
-          />
+          /> */}
+          <Swiper
+            // spaceBetween={30}
+            slidesPerView={1}
+            loop={true}
+            effect={'fade'}
+            centeredSlides={true}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            // navigation={true}
+            modules={[Autoplay, EffectFade, Pagination]}
+            className='mySwiper'
+          >
+            <SwiperSlide>
+              <img
+                src={image1}
+                alt=''
+                className='p-14'
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={image2}
+                alt=''
+                className='p-14'
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={image3}
+                alt=''
+                className='p-14'
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>

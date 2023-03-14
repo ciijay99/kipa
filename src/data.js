@@ -127,7 +127,7 @@ export const publications = [
   },
   {
     id: 4,
-    name: 'Private Sector Investment in Kaduna State Road Infrastructure',
+    name: 'Private Sector Investment in Kebbi State Road Infrastructure',
     link: pdf,
   },
   {

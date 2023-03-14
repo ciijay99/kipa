@@ -14,7 +14,7 @@ const About = () => {
           className=' w-10/12 md:w-9/12 flex place-self-center flex-col mb-16'
           id='who-we-are'
         >
-          <div className='h-auto w-full sm:w-full shadow-3xl place-self-center mb-20 mt-10 flex flex-col sm:flex-row p-14 bg-gray-50 rounded-xl justify-around'>
+          <div className='h-auto w-full sm:w-full shadow-3xl place-self-center mb-20 mt-10 flex flex-col sm:flex-row p-6 md:p-14 bg-gray-50 rounded-xl justify-around'>
             <div className='w-full sm:w-1/3 h-full flex justify-center place-self-center'>
               <h2 className='font-medium text-xl md:text-4xl text-green-850 mt-2 sm:mt-0 mb-5 sm:mb-0'>
                 Who We Are
