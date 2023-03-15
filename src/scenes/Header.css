@@ -57,6 +57,7 @@ video {
 .header-left > h4 {
   margin-top: 2rem;
   color: #fff;
+  font-size: 1.2rem;
   margin-left: -3.6px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
@@ -131,7 +132,7 @@ video {
   justify-content: center;
 }
 .header-btns .btn {
-  margin: 5px;
+  margin: 0px 0px 5px 15px;
   border-radius: 0;
   animation: slideUp 2s 1s ease-in;
 }
@@ -146,6 +147,9 @@ video {
     /* flex-direction: row; */
     /* justify-content: center; */
   }
+  .header-btns .btn {
+    margin: 0px 0px 5px;
+  }
   .header-left {
     /* height: auto; */
     font-size: 0.8rem;
@@ -156,6 +160,13 @@ video {
     top: 35%;
     left: 50%;
     z-index: 1;
+  }
+  .header-left > h1 {
+    font-size: 1.3rem !important;
+  }
+  .header-left > h1 {
+    color: #fff;
+    font-size: 1.35rem;
   }
 }
 

@@ -32,7 +32,7 @@ function Header() {
           <h1 className=' w-full font-rubik font-medium'>
             Kebbi Investment Promotion Agency
           </h1>
-          <h4 className=' w-full hidden justify-center md:flex'>
+          <h4 className=' w-full font-light hidden justify-center md:flex'>
             Driving Economic Growth and Investment Opportunities in
             Kebbi State
           </h4>
