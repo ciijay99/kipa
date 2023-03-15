@@ -4,15 +4,15 @@ import './Header.css';
 import MyComponent from '../components/MyComponent';
 import Marquee from 'react-fast-marquee';
 // import image1 from '../assets/images/pic.png';
-import image2 from '../assets/images/bg.jpg';
-import image3 from '../assets/images/bg2.jpg';
-import Carousel from '../components/Carousel';
+// import image2 from '../assets/images/bg.jpg';
+// import image3 from '../assets/images/bg2.jpg';
+// import Carousel from '../components/Carousel';
 import CarouselHead from './CarouselHead';
 
 // import Carousel from 'react-bootstrap/Carousel';
 
 function Header() {
-  const images = [image2, image3];
+  // const images = [image2, image3];
   return (
     <>
       <div
