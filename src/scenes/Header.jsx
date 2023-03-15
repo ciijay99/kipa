@@ -22,7 +22,7 @@ function Header() {
         }}
       >
         <div
-          className=' object-contain h-[50vh] md:h-[85vh] '
+          className=' object-contain h-[80vh] md:h-[85vh] '
           // style={{ height: '90vh' }}
         >
           {/* <Carousel images={images} /> */}
