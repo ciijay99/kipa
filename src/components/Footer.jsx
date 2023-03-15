@@ -5,6 +5,7 @@ import Logo from '../assets/images/KIPA-white.png';
 import './Footer.css';
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
@@ -32,9 +33,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/'>How it works</Link>
             <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
@@ -80,8 +80,10 @@ function Footer() {
               />
             </Link>
           </div>
-          <small className='website-rights'>KIPA © 2023</small>
-          <div className='social-icons'>
+          <small className='website-rights'>
+            Copywrite © {currentYear} KIPA | All Rights Reserved
+          </small>
+          {/* <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
               to='/'
@@ -122,7 +124,7 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
