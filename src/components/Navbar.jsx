@@ -108,6 +108,33 @@ function Navbar() {
                 Contact
               </NavLink>
             </li>
+            <li className='nav-item'>
+              <NavLink
+                to='/Guidelines'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Guidelines
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
+                to='/Incentives'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Incentives
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink
+                to='/Services'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Services
+              </NavLink>
+            </li>
             {/*  <li className='nav-item'>
               <NavLink
                 to='/Portal'

@@ -40,11 +40,11 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(9, auto);
   grid-gap: 8px;
   list-style: none;
   text-align: center;
-  width: 70vw;
+  width: 80vw;
   justify-content: end;
   margin-right: 1rem;
 }
